@@ -1,0 +1,22 @@
+Algoritmo arraysParesImpares 
+	
+	Definir i Como Entero
+	Dimension array[10]
+	
+	para i = 1 hasta 10 con paso 1 Hacer
+		Escribir "Introduce el valor ", i, ":"
+		Leer array[i]
+	FinPara
+	
+	para i = 1 Hasta 10 con paso 1 Hacer
+		si array[i] MOD 2 = 0 Entonces
+			Escribir "El número en la posición ", i " es par"
+		FinSi
+	FinPara
+	
+	para i = 1 Hasta 10 con paso 1 Hacer
+		si array[i] MOD 2 <> 0 Entonces
+			Escribir "El número en la posición ", i " es impar"
+		FinSi
+	FinPara
+FinAlgoritmo

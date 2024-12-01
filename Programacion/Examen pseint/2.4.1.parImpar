@@ -1,0 +1,12 @@
+Algoritmo parImpar
+	
+	Escribir "Introduce un número: "
+	Leer num
+	
+	Si num mod 2 = 0 Entonces
+		Escribir "El número", num "es par"
+	SiNo
+		Escribir "El número ", num ," es impar"
+	Fin Si
+	
+FinAlgoritmo

@@ -1,0 +1,36 @@
+Algoritmo calculadora
+	
+	contador = 1
+	
+	Escribir "Introduce el primer número: "
+	Leer num1
+	Escribir "Introduce el segundo número: "
+	Leer num2
+	
+	
+	Mientras contador = 1 Hacer
+		Escribir "¿Qué operación desea realizar?: "
+		Escribir "1_Suma  2_Resta  3_Multiplicación  4_División"
+		Leer operacion
+		
+		si operacion <> 1 y operacion <> 2 y operacion <> 3 y operacion <> 4 Entonces
+			Escribir "Introduce un valor adecuado."
+		SiNo
+			Escribir "Realizando el cálculo..."
+			contador= contador + 1
+		FinSi
+	Fin Mientras
+
+	Segun operacion Hacer
+		1:
+			producto = num1 + num2
+		2:
+			producto = num1 - num2
+		3:
+			producto = num1 * num2
+		4:
+			producto = num1 / num2
+	Fin Segun
+	
+	Escribir "El resultado de la operación es: ", producto
+FinAlgoritmo

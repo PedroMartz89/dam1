@@ -1,0 +1,14 @@
+Algoritmo dosNumeros
+	
+	Escribir "Introduce dos números: "
+	Leer num1
+	Leer num2
+	
+	si num1 > num2 Entonces
+		Escribir "El número más grande es ", num1
+		
+	SiNo
+		Escribir "El número más grande es ", num2
+	FinSi
+	
+FinAlgoritmo

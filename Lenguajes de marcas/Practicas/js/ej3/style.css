@@ -1,0 +1,7 @@
+* fieldset {
+  
+    background-color: lightblue;
+    border-radius: 8px;
+    border: 2px darkblue solid;
+    font-weight: bold;
+}

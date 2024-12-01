@@ -1,0 +1,112 @@
+
+
+div.fotos  {
+    
+    margin-bottom: 20px;
+
+}
+img {
+    width: 140px;
+}
+.mes td {
+
+    width: 25px;
+    height: 25px;
+}
+
+td.mes {
+    
+    border-width: 1.5px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    padding: 15px;
+    border-collapse: collapse;
+    
+}
+
+table.mes {
+    margin: 10px;
+}
+
+.dias {
+
+    text-align: center;
+    background-color: #727272;
+    color: #e5e5e5;
+    
+}
+
+.fin_semana {
+
+    text-align: center;
+    background-color: #d1d1d1;
+}
+
+.numero {
+
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.festivo {
+
+    text-align: center;
+    background-color: #ff4cde;    
+    color: #e5e5e5;
+
+}
+
+.navidad {
+
+    background-color: lightgreen;
+}
+
+.inicio {
+
+    text-align: center;
+    background-color: #ffff00;    
+    color: black;
+    
+}
+
+caption {
+
+    font-weight: bold
+}
+
+.texto  {
+    /*margin-left: 150px;*/
+    font-size:30px;
+    font-weight: bold;
+    color: #688bed;
+    text-align: center;
+    
+}
+
+.foot {
+
+    color: #688bed;
+    text-align: center;
+    font-size: smaller;
+    /*margin-left: 170px;*/
+}
+
+.no_lectivo {
+
+    color: white;
+    background-color:#688bed
+}
+
+#leyenda {
+
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#tabla_leyenda {
+
+    margin-right: 20px;
+}

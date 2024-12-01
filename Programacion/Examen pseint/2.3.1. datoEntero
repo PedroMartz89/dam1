@@ -1,0 +1,29 @@
+Algoritmo datoEntero
+	
+	Escribir "Introduce 3 números: "
+	Definir num1, num2, num3 Como Entero
+	Leer num1, num2, num3
+	
+	si num1 > num2 Y num1 > num3 Entonces
+		Escribir "El número más grande es ", num1
+	SiNo
+		Si num2 > num1 y num2 > num3 Entonces
+			Escribir "El número más grande es ", num2
+		SiNo
+			Escribir "El número más grande es ", num3
+		Fin Si
+	FinSi
+	
+	si num1 < num2 Y num1 < num3 Entonces
+		Escribir "El número más pequeño es ", num1
+	SiNo
+		Si num2 < num1 y num2 < num3 Entonces
+			Escribir "El número más pequeño es ", num2
+		SiNo
+			Escribir "El número más pequeño es ", num3
+		Fin Si
+	FinSi
+	
+	
+	
+FinAlgoritmo
