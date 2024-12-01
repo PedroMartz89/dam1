@@ -1,0 +1,18 @@
+<consolas>
+    <tipo>
+        <titulo>Sobremesa</titulo>
+        <marcas>
+            <ejemplos>Sony</ejemplos>
+                <consola>PS4</consola>
+            <ejemplos>Microsoft</ejemplos>
+                <consola>XBOX</consola>
+        </marcas>
+    </tipo>
+    <tipo>
+        <titulo>Portátil</titulo>
+        <marcas>
+            <ejemplos>Nintendo</ejemplos>
+                <consola>Switch</consola>
+        </marcas>
+    </tipo>
+</consolas>

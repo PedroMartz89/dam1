@@ -1,0 +1,12 @@
+<coches>
+    <tipo>
+        <berlina>
+            <marcas>Renault</marcas>
+                <modelo>Meggane Classic</modelo>
+        </berlina>
+        <familiar>
+            <marcas>Nissan</marcas>
+                <modelo>Qashqai</modelo>
+        </familiar>
+    </tipo>
+</coches>

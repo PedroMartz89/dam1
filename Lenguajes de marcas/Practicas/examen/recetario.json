@@ -1,0 +1,42 @@
+{
+
+    "recetario": {
+
+        "recetas": [
+
+            {
+                "nombre": "Tortilla de patatas",
+                "id": 1,
+                "tiempo": "1 hora",
+                "Ingredientes": [
+                 
+                    {"nombre" : "patata", "cantidad": 4, "unidadMedida": "unidad"},
+                    {"nombre" : "cebolla", "cantidad": 2, "unidadMedida": "unidad"},
+                    {"nombre" : "huevo", "cantidad": 4, "unidadMedida": "unidad"}
+                 
+                ],
+                
+                "elaboracion": "fdkjsafklkkklklklklklklklklklklklkl"
+                
+            },
+            
+            {
+                
+                "nombre": "Espaguetis",
+                "id": 2,
+                "tiempo": "30min",
+                "Ingredientes": [
+
+                    {"nombre": "pasta", "cantidad": 200, "unidadMedida": "gramos"},
+                    {"nombre": "queso", "cantidad": 100, "unidadMedida": "gramos"},
+                    {"nombre": "tomate", "cantidad": 2, "unidadMedida": "unidades"}
+                ],
+
+                "elaboracion":"fdkjsafhnsansakfhnsa"
+
+            }
+        ]
+
+    }
+
+}

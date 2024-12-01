@@ -1,0 +1,34 @@
+<recetario>
+    <recetas>
+        <receta>Tortilla de patata</receta>
+            <id>1</id>
+            <tiempo>1h</tiempo>
+            <ingredientes>Ingredientes</ingredientes>
+                <nombre>patata</nombre>
+                    <cantidad>4</cantidad>
+                    <unidad>unidades</unidad>
+                <nombre>huevos</nombre>
+                    <cantidad>4</cantidad>
+                    <unidad>unidades</unidad>
+                <nombre>cebollas</nombre>
+                    <cantidad>4</cantidad>
+                    <unidad>unidades</unidad>
+            <elaboracion>Freír las patatas con las cebollas, cuando estén pochadas, añadir los huevos batidos y cuando haya cuajado, dar la vuelta y esperar a que vuelva a cuajar, al terminar, retirar del fuego y servir</elaboracion>
+        
+        <receta>Espagueti</receta>
+            <id>2</id>
+            <tiempo>30min</tiempo>
+            <ingredientes>Ingredientes</ingredientes>
+                <nombre>Espagueti</nombre>
+                    <cantidad>200</cantidad>
+                    <unidad>gramos</unidad>
+                <nombre>Queso</nombre>
+                    <cantidad>50</cantidad>
+                    <unidad>gramos</unidad>
+                <nombre>cebolla</nombre>
+                    <cantidad>1</cantidad>
+                    <unidad>unidad</unidad>
+            
+            <elaboracion>dgnjdfngljskfdasgnañLDSGKJNJSAF</elaboracion>
+    </recetas>
+</recetario>

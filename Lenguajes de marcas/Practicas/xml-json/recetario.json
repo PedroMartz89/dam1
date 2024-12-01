@@ -1,0 +1,11 @@
+{
+   "tipo" : "Recetario",
+     "Receta" : "Tortilla de patata", 
+        "id" : 1 , 
+        "tiempo" : "30min" , 
+        "Ingredientes" : "Patata, cebolla, huevos",
+            "patatas" : "4",
+            "huevos" : "1",
+            "cebolla" : "4",
+        "elaboracion" : "Freír las patatas con las cebollas, cuando estén pochadas, añadir los huevos batidos y cuando haya cuajado, dar la vuelta y esperar a que vuelva a cuajar, al terminar, retirar del fuego y servir"
+}

@@ -1,0 +1,43 @@
+<cuerpoHumano>
+
+    <region>
+       
+        <ejemplo>cabeza</ejemplo>
+            <partes>
+        
+                <ojos>
+                    <organos>retina</organos>
+                    <organos>pupila</organos>
+                    <organos>cristalino</organos>
+                </ojos>
+        
+                <nariz>
+
+                    <organos>tabique</organos>
+                    <organos>fosa nasal</organos>
+            
+                </nariz>
+
+            </partes>
+
+        <ejemplo>tronco</ejemplo>
+
+            <partes>
+
+                <pecho>
+                    <organos>corazon</organos>
+                    <organos>pulmones</organos>
+                </pecho>  
+            
+                <brazos>
+                
+                    <organos>hombro</organos>
+                    <organos>antebrazo</organos>
+                    <organos>biceps</organos>
+                
+                </brazos>
+            </partes>
+    </region>
+
+
+</cuerpoHumano>
