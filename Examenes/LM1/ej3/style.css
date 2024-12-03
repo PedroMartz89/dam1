@@ -1,0 +1,41 @@
+* {
+
+    font-size: 12px;
+}
+
+.main {
+
+    border: 2px black solid;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.tabla2 {
+
+    border: 1px black solid;
+    padding: 15px;
+}
+
+textarea {
+
+    width: 100%;
+
+}
+
+input {
+
+    margin-top: 10px;
+    text-align: center;
+}
+
+th {
+
+    text-align: center;
+}
+
+.titulo {
+
+    text-align: center;
+}
+

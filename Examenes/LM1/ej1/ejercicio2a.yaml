@@ -1,0 +1,22 @@
+nombre: "Jardin Botanico Central"
+ubicacion: 
+  ciudad: "Valencia"
+  pais: "España"
+  coordenadas: 
+    latitud: 39.4699
+    longitud: -0.3763
+anoFundacion: 1955
+estaAbierto: true
+numeroPlantas: 5000
+secciones:
+  -"Invernadero Tropical"
+  -"Jardin Cactus"
+  -"Rosaleda"
+  -"Huerto Urbano"
+jardineroPrincipal:
+  nombre: Luis Martinez
+  edad: 45
+  anosExperiencia: 20
+  contacto:
+    correo: luis.martinez@jardinbotanico.es
+    telefono: +34-123-456-789

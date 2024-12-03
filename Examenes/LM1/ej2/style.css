@@ -1,0 +1,53 @@
+* {
+    font-size: 13px;
+}
+
+.txt1 {
+
+    display: inline-flex;
+}
+
+p {
+    
+    text-align: left;
+}
+.cita {
+
+    margin-left: 75px;
+}
+.pieza {
+
+    flex:1;
+
+}
+
+.txt2 {
+
+    display: inline-flex;
+    
+}
+
+.nota2 {
+    margin-left: 10px;
+
+}
+
+.cita2 {
+
+    margin-left: 150px;
+}
+
+.txt3 {
+
+    display: inline-flex;
+    
+}
+
+.html {
+
+    width: 150px;
+    height: 150px;
+    flex:1;
+    margin-top: 25px;
+    margin-left: 100px;
+}
