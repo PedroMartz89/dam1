@@ -1,0 +1,29 @@
+<prision>
+    <nombrePrision>Instalación Correcional Central</nombrePrision>
+    <ubicacion>
+        <ciudad>Springfield</ciudad>
+        <estado>Illinois</estado>
+        <coordenadas>
+            <latitud>39.7817</latitud>
+            <longitud>-89.6501</longitud>
+        </coordenadas>
+    </ubicacion>
+    <anoEstablecimiento>1950</anoEstablecimiento>
+    <estaActiva>true</estaActiva>
+    <numeroReclusos>1200</numeroReclusos>
+    <instalaciones>
+        <ejemplo>Biblioteca</ejemplo>
+        <ejemplo>Gimnasio</ejemplo>
+        <ejemplo>Centro Médico</ejemplo>
+        <ejemplo>Taller</ejemplo>
+    </instalaciones>
+    <director>
+        <nombre>Juan Perez</nombre>
+        <edad>52</edad>
+        <anosEnCargo>19</anosEnCargo>
+    </director>
+    <contacto>
+        <correo>juan.perez@prision.gov</correo>
+        <telefono>+345551234567</telefono>
+    </contacto>
+</prision>

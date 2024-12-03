@@ -38,13 +38,10 @@ div {
     background-color: #B0C2F2;
 }
 
-.columnas {
 
+.columnas {
+    
     background-color: #B0F2C2;
-}
-
-.columnas {
-
     display: flex;
     position: relative;
 }

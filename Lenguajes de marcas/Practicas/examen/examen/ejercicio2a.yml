@@ -1,0 +1,23 @@
+prision:
+  nombrePrision: "Instalación Correccional Central"
+  ubicacion:
+    ciudad: Springfield
+    estado: Illinois
+    coordenadas:
+      latitud: 39.7817
+      longitud: -89.6501
+  anoEstablecimiento: 1950
+  estaActiva: true
+  numeroReclusos: 1200
+  instalaciones:
+    - Biblioteca
+    - Gimnasio
+    - Centro Médico
+    - Taller
+  director:
+    nombre: Juan Pérez
+    edad: 52
+    anosEnCargo: 10
+    contacto:
+      correo: juan.perez@prisiones.gov
+      telefono: +345551234567
