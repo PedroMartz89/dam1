@@ -21,7 +21,6 @@ public class Ej2 {
 
 	public static void main(String[] args) {
 		
-		int temp = 1;
 
 		for (int i = 1; i < 7 ; i++ ) {
 			
@@ -38,10 +37,8 @@ public class Ej2 {
 		for (int i = 5; i >= 1 ; i = i - 1 ) {
 			
 			for (int j = i; j >= 1 ; j = j - 1 ) {
-				
-				temp = i;
 
-				System.out.print(temp);
+				System.out.print(i);
 			}
 			System.out.println();
 		}

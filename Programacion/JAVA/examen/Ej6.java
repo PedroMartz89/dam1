@@ -12,14 +12,14 @@
 */
 import java.util.Scanner;
 
-public class Ej5 {
+public class Ej6 {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         
-        int num,temp;
+        int num;
         boolean condicion = false;
         Scanner teclado = new Scanner(System.in);
-
 
         while (!condicion) {
 
@@ -33,8 +33,6 @@ public class Ej5 {
                 for (int i = 1; i <= num ; i++ ) {
                     
                     for (int j = 1; j <= i; j++ ) {
-                        
-                        temp = j;
 
                         System.out.print(i);
                     }
