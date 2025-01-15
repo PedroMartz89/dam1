@@ -32,7 +32,15 @@ class EstudianteTest {
             System.out.println();
 
         }
+
+        TelefonoMovil telf = new TelefonoMovil();
+
+        System.out.println("Modelo de Nokia: ");
+        System.out.println(telf.mostrarNokia());
     }
+
+
+
 
 
 
