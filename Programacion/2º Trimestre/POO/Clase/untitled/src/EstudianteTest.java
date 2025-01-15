@@ -1,11 +1,37 @@
-import static org.junit.jupiter.api.Assertions.*;
-
 class EstudianteTest {
     public static void main(String[] args) {
-        Estudiante alumno1 = new Estudiante();
-        alumno1.setNombre("Pedro");
-        alumno1.setApellido1("Martínez");
-        alumno1.setApellido2("Sánchez");
+//        Estudiante alumno = new Estudiante();
+//        alumno.setNombre("Pedro");
+//        alumno.setApellido1("Martínez");
+//        alumno.setApellido2("Sánchez");
+//
+//        System.out.println("Alumno 1");
+//
+//        System.out.println("Número de estudiantes: " + alumno.obtenerNumEstudiantes());
+//        System.out.println(alumno.infoEstudiante());
+//
+//        System.out.println();
+//        Estudiante alumno2 = new Estudiante("Jorge", "Hernández", "Aparicio");
+//
+//        System.out.println("Alumno 2");
+//
+//        System.out.println("Número de estudiantes: " + alumno2.obtenerNumEstudiantes());
+//        System.out.println(alumno2.infoEstudiante());
+
+        Estudiante[] arrayAlumnos = new Estudiante[3];
+
+        arrayAlumnos[0] = new Estudiante("Pedro", "Martínez", "Sánchez");
+        arrayAlumnos[1] = new Estudiante("Jorge", "Hernández", "Aparicio");
+        arrayAlumnos[2] = new Estudiante("Roberto", "Company", "Zomeño");
+
+
+        for (int i = 0; i < arrayAlumnos.length; i++) {
+
+            System.out.println("Total de estudiantes: " + arrayAlumnos[i].obtenerNumEstudiantes());
+            System.out.println(arrayAlumnos[i].infoEstudiante());
+            System.out.println();
+
+        }
     }
 
 

@@ -17,6 +17,10 @@ public class Estudiante {
         return numEstudiantes;
     }
 
+    public Estudiante() {
+        numEstudiantes ++;
+    }
+
     public Estudiante(String nombre, String apellido1, String apellido2, int curso, int grado, String universidad, String correo, int telefono) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
@@ -26,15 +30,26 @@ public class Estudiante {
         this.universidad = universidad;
         this.correo = correo;
         this.telefono = telefono;
-    }
-
-    public Estudiante() {
+        numEstudiantes ++;
     }
 
     public Estudiante(String nombre, String apellido1, String apellido2) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
+        numEstudiantes ++;
+    }
+    public String infoEstudiante() {
+
+        return "Nombre: " +
+                this.nombre + "\nApellidos: "
+                + this.apellido1+ " "
+                + this.apellido2 + "\nTeléfono: "
+                + this.telefono + "\n Curso: "
+                + this.curso + "\n Grado: "
+                + this.grado + "\nUniversidad: "
+                + this.universidad
+                + "\nCorreo Electrónico: " + this.correo;
     }
 
     public String getNombre() {
@@ -101,16 +116,4 @@ public class Estudiante {
         this.telefono = telefono;
     }
 
-    public String infoEstudiante() {
-
-        return "Nombre: " +
-                this.nombre + "\nApellidos: "
-                + this.apellido1+ " "
-                + this.apellido2 + "\nTeléfono: "
-                + this.telefono + "\n Curso: "
-                + this.curso + "\n Grado: "
-                + this.grado + "\nUniversidad: "
-                + this.universidad
-                + "\nCorreo Electrónico: " + this.correo;
-    }
 }
