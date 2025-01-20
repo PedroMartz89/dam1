@@ -3,16 +3,16 @@ public class TelefonoMovil {
     private String fabricante;
     private double precio;
     private String dueno;
-    private int bateria;
-    private int pantalla;
+    private Bateria bateria;
+    private Pantalla pantalla;
 
-    public TelefonoMovil(String modelo, String dueno, String fabricante) {
+    public TelefonoMovil(String modelo, double precio, String fabricante) {
         this.modelo = modelo;
-        this.dueno = dueno;
+        this.precio = precio;
         this.fabricante = fabricante;
     }
 
-    public TelefonoMovil(double precio, int pantalla, int bateria, String fabricante, String modelo) {
+    public TelefonoMovil(double precio, Pantalla pantalla, Bateria bateria, String fabricante, String modelo) {
         this.precio = precio;
         this.pantalla = pantalla;
         this.bateria = bateria;
@@ -21,6 +21,7 @@ public class TelefonoMovil {
     }
 
     public TelefonoMovil() {
+        super();
     }
 
     public String nokia95() {
@@ -65,19 +66,31 @@ public class TelefonoMovil {
         this.dueno = dueno;
     }
 
-    public int getBateria() {
+    public Bateria getBateria() {
         return bateria;
     }
 
-    public void setBateria(int bateria) {
+    public void setBateria(Bateria bateria) {
         this.bateria = bateria;
     }
 
-    public int getPantalla() {
+    public Pantalla getPantalla() {
         return pantalla;
     }
 
-    public void setPantalla(int pantalla) {
+    public void setPantalla(Pantalla pantalla) {
         this.pantalla = pantalla;
+    }
+
+    @Override
+    public String toString() {
+        return "TelefonoMovil{" +
+                "modelo='" + modelo + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", precio=" + precio +
+                ", dueno='" + dueno + '\'' +
+                ", bateria=" + bateria +
+                ", pantalla=" + pantalla +
+                '}';
     }
 }

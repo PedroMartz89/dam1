@@ -18,7 +18,16 @@ public class Bateria {
         this.horasCapacidad = horasCapacidad;
     }
 
+    public Bateria(String modelo) {
+        this.modelo = modelo;
+    }
 
+    @Override
+    public String toString() {
+        return "Bateria{" +
+                "modelo='" + modelo + '\'' +
+                '}';
+    }
 
     public String getModelo() {
         return modelo;
