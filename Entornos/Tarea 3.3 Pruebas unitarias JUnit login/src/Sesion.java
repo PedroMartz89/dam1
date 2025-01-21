@@ -8,7 +8,7 @@ public class Sesion {
     public boolean login(String user, String passwd) throws FileNotFoundException {
 
         try {
-            File text = new File("/usuarios.txt");
+            File text = new File("assets/usuarios.txt");
             Scanner myReader = new Scanner(text);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
