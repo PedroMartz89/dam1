@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Principal {
+
     public static void main(String[] args) {
 
         int numAlumnos = 0;
@@ -39,12 +40,35 @@ public class Principal {
             arrayAlumnos[i] = new Alumno(nombre,apellido,nre,email,dir);
         }
 
+        System.out.println("De qué alumno quieres ver a información?: ");
+        System.out.println("0 - Salir");
+
         for (int i = 0; i < arrayAlumnos.length; i++) {
 
-            System.out.println();
-            System.out.println("-----------------------------");
+            System.out.println(i+1 +" - " + arrayAlumnos[i].getNombre());
 
-            System.out.println(arrayAlumnos[i].info());
         }
+
+
+        while (true) {
+
+            int eleccion = teclado.nextInt();
+
+            if (eleccion == 0) {
+
+                System.out.println("Se va a salir del programa");
+                break;
+
+            } else if (eleccion > 0 && eleccion <= arrayAlumnos.length) {
+
+                System.out.println(arrayAlumnos[eleccion-1].info());
+            } else {
+
+                System.out.println("Ese alumno no existe en el programa.");
+            }
+        }
+
+        teclado.close();
     }
-}
+
+    }

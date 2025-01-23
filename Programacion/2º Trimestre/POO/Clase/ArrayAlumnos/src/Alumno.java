@@ -7,6 +7,7 @@ public class Alumno {
     private String direccion;
 
     public Alumno() {
+
     }
 
     public Alumno(String nombre, String apellidos, int nre, String email, String direccion) {
