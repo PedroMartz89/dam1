@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coleccionVideojuegos>
+    <!-- Juegos en digital -->
+
+    <juego>
+        <nombre>Terraria</nombre>
+        <Desarrolladora>Re-Logic</Desarrolladora>
+        <Generos>
+            <tipo>Supervivencia</tipo>
+                <subtipo>Horror</subtipo>
+            <tipo>Aventura</tipo>
+                <subtipo>Plataformas</subtipo>
+            <tipo>Un jugador</tipo>
+        </Generos>
+        <año>2011</año>
+        <JugableEn>
+            <plataforma>PC</plataforma>
+            <plataforma>PS4</plataforma>
+            <plataforma>Android</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>Nintendo</plataforma>
+        </JugableEn>
+    </juego>
+
+    <juego>
+        <nombre>Horizon Zero Dawn</nombre>
+        <Desarrolladora>Guerrilla</Desarrolladora>
+        <Generos>
+            <tipo>Mundo abierto</tipo>
+                <subtipo>Post apocalíptico</subtipo>
+            <tipo>Aventura</tipo>
+                <subtipo>Historia profunda</subtipo>
+            <tipo>Un jugador</tipo>
+        </Generos>
+        <año>2017</año>
+        <JugableEn>
+            <plataforma>PC</plataforma>
+            <plataforma>PS4</plataforma>
+            <plataforma>PS5</plataforma>
+        </JugableEn>
+    </juego>
+
+    <!-- Juegos en estantería -->
+    <juego>
+        <nombre>Zelda Majora´s Mask</nombre>
+        <Desarrolladora>Nintendo</Desarrolladora>
+        <Generos>
+            <tipo>Aventura</tipo>
+                <subtipo>Horror</subtipo>
+            <tipo>Lógica</tipo>
+                <subtipo>Puzzles</subtipo>
+            <tipo>Un jugador</tipo>
+            <tipo>Acción</tipo>
+        </Generos>
+        <año>2000</año>
+        <JugableEn>
+            <plataforma>Nintendo Switch</plataforma>
+            <plataforma>Gamecube</plataforma>
+            <plataforma>Nintendo 3DS</plataforma>
+        </JugableEn>
+    </juego>
+
+    <juego>
+        <nombre>Dark Souls 3</nombre>
+        <Desarrolladora>FromSoftware</Desarrolladora>
+        <Generos>
+            <tipo>Rol</tipo>
+                <subtipo>Acción</subtipo>
+            <tipo>Pelea</tipo>
+            <tipo>Horror</tipo>
+            <tipo>Aventura</tipo>
+        </Generos>
+        <año>2016</año>
+        <JugableEn>
+            <plataforma>Windows</plataforma>
+            <plataforma>PS4</plataforma>
+            <plataforma>Xbox One</plataforma>
+        </JugableEn>
+    </juego>
+
+</coleccionVideojuegos>
