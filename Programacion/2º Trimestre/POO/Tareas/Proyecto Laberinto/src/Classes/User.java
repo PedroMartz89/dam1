@@ -1,19 +1,17 @@
 package Classes;
 
-import java.util.Date;
-
 public class User {
 
     private String username;
     private String name;
-    private int nif;
+    private String nif;
     private String email;
     private String address;
     private String birthday;
     private String role;
 
 
-    public User(String username, String name, int nif, String email, String address, String birthday, String role) {
+    public User(String username, String name, String nif, String email, String address, String birthday, String role) {
         this.username = username;
         this.name = name;
         this.nif = nif;
@@ -21,6 +19,9 @@ public class User {
         this.address = address;
         this.birthday = birthday;
         this.role = role;
+    }
+
+    public User() {
     }
 
     public String getUsername() {
@@ -39,11 +40,11 @@ public class User {
         this.name = name;
     }
 
-    public int getNif() {
+    public String getNif() {
         return nif;
     }
 
-    public void setNif(int nif) {
+    public void setNif(String nif) {
         this.nif = nif;
     }
 

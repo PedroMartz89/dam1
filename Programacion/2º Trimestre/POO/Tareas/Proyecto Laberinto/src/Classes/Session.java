@@ -7,14 +7,12 @@ public class Session {
 
     private User user;
     private boolean logged;
+
     Config config = new Config();
-    public Session(User user, boolean logged) {
-        this.user = user;
-        this.logged = false;
-    }
 
     public Session() {
-
+        this.user = new User();
+        this.logged = false;
     }
 
     public boolean login() {
@@ -40,6 +38,7 @@ public class Session {
 
                if (array1[0].equals(user) && array1[1].equals(passwd)) {
 
+                   this.user = new User(array1[0],array1[2],array1[3],array1[4],array1[5],array1[6],"user");
                    logged = true;
                    break;
                }
@@ -50,6 +49,7 @@ public class Session {
             System.err.println("Error: Archivo no encontrado.");
         }
 
+        this.logged = logged;
         return logged;
     }
 
@@ -69,6 +69,36 @@ public class Session {
         return "Usuario registrado correctamente.";
     }
 
+
+    public void showUser() {
+
+        if (this.logged && this.user != null) {
+
+            System.out.println("------- Información del usuario -------");
+            System.out.println("Nombre de usuario: " + this.user.getUsername());
+            System.out.println("Nombre completo: " + this.user.getName());
+            System.out.println("NIF: " + this.user.getNif());
+            System.out.println("Email: " + this.user.getEmail());
+            System.out.println("Dirección: " + this.user.getAddress());
+            System.out.println("Fecha de nacimiento: " + this.user.getBirthday());
+            System.out.println("Rol: " + this.user.getRole());
+            System.out.println("---------------------------------------");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Session{" +
+                "user=" + user +
+                ", logged=" + logged +
+                '}';
+    }
+
+    public void logout() {
+
+        this.logged = false;
+        this.user = null;
+    }
 
     public User getUser() {
         return user;
