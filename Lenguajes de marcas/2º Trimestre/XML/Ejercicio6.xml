@@ -8,13 +8,13 @@
   <!ELEMENT horaLlamada (#PCDATA)>
   <!ELEMENT tiempoEspera (#PCDATA)>
   <!ATTLIST consulta
-    codigo CDATA #REQUIRED
-    estado CDATA #REQUIRED>
+    codigo ID #REQUIRED
+    estado CDATA "O">
 ]>
 
 <cmsi>
     <nombre>Centro Médico Salus Infirmorum</nombre>
-    <consulta codigo="05EDC" estado="0">
+    <consulta codigo="05EDC" estado="O">
         <compañiaPrivada>NO</compañiaPrivada>
         <horaAsignada>9:05</horaAsignada>
         <horaLlamada>9:07</horaLlamada>
