@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cmsi [
+  <!ELEMENT cmsi (nombre,consulta+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT consulta (compañiaPrivada,horaAsignada,horaLlamada,tiempoEspera)>
+  <!ELEMENT compañiaPrivada (#PCDATA)>
+  <!ELEMENT horaAsignada (#PCDATA)>
+  <!ELEMENT horaLlamada (#PCDATA)>
+  <!ELEMENT tiempoEspera (#PCDATA)>
+  <!ATTLIST consulta
+    codigo CDATA #REQUIRED
+    estado CDATA #REQUIRED>
+]>
+
+<cmsi>
+    <nombre>Centro Médico Salus Infirmorum</nombre>
+    <consulta codigo="05EDC" estado="0">
+        <compañiaPrivada>NO</compañiaPrivada>
+        <horaAsignada>9:05</horaAsignada>
+        <horaLlamada>9:07</horaLlamada>
+        <tiempoEspera>2m</tiempoEspera>
+    </consulta>
+
+    <consulta codigo="07WEV" estado="D">
+        <compañiaPrivada>SI (NHS)</compañiaPrivada>
+        <horaAsignada>10:00</horaAsignada>
+        <horaLlamada>10:30</horaLlamada>
+        <tiempoEspera>30 m</tiempoEspera>
+    </consulta>
+</cmsi>
+

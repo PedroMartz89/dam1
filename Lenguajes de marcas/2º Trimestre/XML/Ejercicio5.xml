@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dam [
+  <!ELEMENT dam (modulo+)>
+  <!ELEMENT modulo (titulo, contenido)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT contenido (unidad+)>
+  <!ELEMENT unidad (#PCDATA)>
+]>
+<dam>
+    <modulo>
+        <titulo>Lenguaje de marcas</titulo>
+            <contenido>
+                <unidad>HTML</unidad>
+                <unidad>CSS</unidad>
+            </contenido>
+    </modulo>
+    <modulo>
+        <titulo>Bases de datos</titulo>
+            <contenido>
+                <unidad>ORACLE</unidad>
+            </contenido>
+    </modulo>
+</dam>
