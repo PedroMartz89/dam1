@@ -13,7 +13,6 @@ public class EjercicioArrays {
         int[] suspensos = new int[numAlumnos];
         int countAprobados = 0;
         int countSuspensos = 0;
-        double[] calif;
 
         //Genera notas random entre 1 y 10
         for(int i=0; i < control.length; i++){
@@ -75,10 +74,6 @@ public class EjercicioArrays {
                 + Arrays.toString(suspensos));
         //Resumen de aprobados y suspensos
 
-
-
-
-
         System.out.println("Resumen  de aprobados por nº de lista: "
                 + Arrays.toString(aprobados(countAprobados(numAlumnos,calificaciones,aprobados,countAprobados),aprobados)));
         System.out.println("Resumen  de aprobados por nº de lista: "
@@ -89,11 +84,8 @@ public class EjercicioArrays {
         notas de 31 alumnos. Realizar un programa que permita insertar en
         la posición 4 del vector la calificación de un nuevo
         alumno en clase al que supuestamente le corresponde como nota un 6.*/
+        double[] calif = notaNueva();
 
-        calif = new double[40];
-        for (int j=0; j<31; j++){
-            calif[j] = (int)(Math.random()*11);
-        }
         System.out.println("Nota antigua alumno nº4: " + calif[3]);
         calif[3] = 6;
         System.out.println("Nota nueva   alumno nº4: " + calif[3]);
@@ -163,10 +155,8 @@ public class EjercicioArrays {
 
         for (int i=0; i<10; i++){
             float count = 0;
-            float sum = 0;
             for (int j=0; j<control.length; j++){
                 if ((i < calificaciones[j]) && ((i+1) >= calificaciones[j] )) {
-                    sum += calificaciones[j];
                     count += 1;
                 }
             }
@@ -231,5 +221,16 @@ public class EjercicioArrays {
         }
         return s;
 
+    }
+
+    public static double[] notaNueva() {
+
+        double[] calif = new double[40];
+
+        for (int j=0; j<31; j++){
+            calif[j] = (int)(Math.random()*11);
+        }
+
+        return calif;
     }
 }
