@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE relacionsql [
+    <!ELEMENT relacionsql (comentario?, configdb, student, consultas)>
+    <!ATTLIST relacionsql numrelacion CDATA #REQUIRED>
+
+    <!ELEMENT comentario (#PCDATA)>
+
+    <!ELEMENT configdb (hostdb, esquemadb, usuariodb, passdb)>
+    <!ELEMENT hostdb (#PCDATA)>
+    <!ELEMENT esquemadb (#PCDATA)>
+    <!ELEMENT usuariodb (#PCDATA)>
+    <!ELEMENT passdb (#PCDATA)>
+
+    <!ELEMENT student (alumno, finalgrade, totalgrade, maxgrade)>
+    <!ELEMENT alumno (#PCDATA)>
+    <!ELEMENT finalgrade (#PCDATA)>
+    <!ELEMENT totalgrade (#PCDATA)>
+    <!ELEMENT maxgrade (#PCDATA)>
+
+    <!ELEMENT consultas (query+)>
+
+    <!ELEMENT query (descq, resppropo, respcorr, gradeq, feedback)>
+    <!ATTLIST query id ID #REQUIRED>
+    <!ATTLIST query peso CDATA "1">
+
+    <!ELEMENT descq (#PCDATA)>
+    <!ELEMENT resppropo (#PCDATA)>
+    <!ELEMENT respcorr (#PCDATA)>
+    <!ELEMENT gradeq (#PCDATA)>
+    <!ELEMENT feedback (#PCDATA)>
+]>
+
+<relacionsql numrelacion="R7.2">
+	<comentario>Esto es un comentario a la relación que puede ser opcional</comentario>
+	<configdb>
+		<hostdb>localhost</hostdb>
+		<esquemadb>tienda</esquemadb>
+		<usuariodb>tienda</usuariodb>
+		<passdb>tienda</passdb>
+	</configdb>
+	<student>
+		<alumno>Pon aquí tu apellido1 apellido2, y nombre en mayúsculas</alumno>
+		<finalgrade>0</finalgrade>
+		<totalgrade>0</totalgrade>
+		<maxgrade>0</maxgrade>
+	</student>
+	<consultas>
+		<query id="C-1" peso="1">
+			<descq>Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-2" peso="1">
+			<descq>Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-3" peso="1">
+			<descq>Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-4" peso="2">
+			<descq>Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-5" peso="2">
+			<descq>Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más caro.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-6" peso="1">
+			<descq>Devuelve una lista de todos los productos del fabricante Lenovo</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-7" peso="2">
+			<descq>Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayor que 200€</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-8" peso="2">
+			<descq>Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packard y Seagate. Sin utilizar el operador IN.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-9" peso="2">
+			<descq>Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packardy Seagate. Utilizando el operador IN.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-10" peso="2">
+			<descq>Devuelve un listado con el nombre y el precio de todos los productos de los fabricantes cuyo nombre termine por la vocal e.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-11" peso="2">
+			<descq>Devuelve un listado con el nombre y el precio de todos los productos cuyo nombre de fabricante contenga el carácter w en su nombre.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-12" peso="2">
+			<descq>Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de todos los productos que tengan un precio mayor o igual a 180€. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente)
+
+</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-13" peso="2">
+			<descq>Devuelve un listado con el código y el nombre de fabricante, solamente de aquellos fabricantes que tienen productos asociados en la base de datos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-14" peso="1">
+			<descq>Calcula el número total de productos que hay en la tabla productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+				<query id="C-15" peso="1">
+			<descq>Calcula el número total de fabricantes que hay en la tabla fabricante.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-16" peso="1">
+			<descq>Calcula el número de valores distintos de código de fabricante aparecen en la tabla productos</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-17" peso="1">
+			<descq>Calcula la media del precio de todos los productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-18" peso="1">
+			<descq>Calcula el precio más barato de todos los productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-19" peso="1">
+			<descq>Calcula el precio más caro de todos los productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-20" peso="2">
+			<descq>Lista el nombre y el precio del producto más barato.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-21" peso="2">
+			<descq>Lista el nombre y el precio del producto más caro.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-22" peso="1">
+			<descq>Calcula la suma de los precios de todos los productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-23" peso="2">
+			<descq>Calcula el número de productos que tiene el fabricante Asus.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-24" peso="2">
+			<descq>Calcula la media del precio de todos los productos del fabricante Asus.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-25" peso="2">
+			<descq>Calcula el precio más barato de todos los productos del fabricante Asus.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-26" peso="2">
+			<descq>Calcula el precio más caro de todos los productos del fabricante Asus.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-27" peso="2">
+			<descq>Calcula la suma de todos los productos del fabricante Asus.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-28" peso="2">
+			<descq>Muestra el precio máximo, precio mínimo, precio medio y el número total de productos que tiene el fabricante Crucial</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-29" peso="4">
+			<descq>Muestra el número total de productos que tiene cada uno de los fabricantes. El listado también debe incluir los fabricantes que no tienen ningún producto. El resultado mostrará dos columnas, una con el nombre del fabricante y otra con el número de productos que tiene. Ordene el resultado descendentemente por el número de productos.
+</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-30" peso="4">
+			<descq>Muestra el precio máximo, precio mínimo y precio medio de los productos de cada uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los datos que se solicitan.
+</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-31" peso="4">
+			<descq>Muestra el precio máximo, precio mínimo, precio medio y el número total de productos de los fabricantes que tienen un precio medio superior a 200€. No es necesario mostrar el nombre del fabricante, con el código del fabricante es suficiente.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-32" peso="4">
+			<descq> Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo, precio medio y el número total de productos de los fabricantes que tienen un precio medio superior a 200€. Es necesario mostrar el nombre del fabricante.
+</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-33" peso="2">
+			<descq>Calcula el número de productos que tienen un precio mayor o igual a 180€.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-34" peso="4">
+			<descq>Calcula el número de productos que tiene cada fabricante con un precio mayor o igual a 180€</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-35" peso="4">
+			<descq>Lista el precio medio los productos de cada fabricante, mostrando solamente el código del fabricante.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-36" peso="4">
+			<descq>Lista el precio medio los productos de cada fabricante, mostrando solamente el nombre del fabricante. </descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-37" peso="2">
+			<descq>Lista los nombres de los fabricantes cuyos productos tienen un precio medio mayor o igual a 150€.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-38" peso="3">
+			<descq>Devuelve un listado con los nombres de los fabricantes que tienen 2 o más productos.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-39" peso="2">
+			<descq>Devuelve un listado con los nombres de los fabricantes y el número de productos que tiene cada uno con un precio superior o igual a 220 €. No es necesario mostrar el nombre de los fabricantes que no tienen productos que cumplan la condición.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-40" peso="4">
+			<descq>Devuelve un listado con los nombres de los fabricantes donde la suma del precio de todos sus productos es superior a 1000 €.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+		<query id="C-41" peso="4">
+			<descq> Devuelve un listado con el nombre del producto más caro que tiene cada fabricante. El resultado debe tener tres columnas: nombre del producto, precio y nombre del fabricante. El resultado tiene que estar ordenado alfabéticamente de menor a mayor por el nombre del fabricante.</descq>
+			<resppropo>
+			</resppropo>
+			<respcorr>
+			</respcorr>
+			<gradeq></gradeq>
+			<feedback></feedback>
+		</query>
+	</consultas> 
+</relacionsql>
