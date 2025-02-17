@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equiposFutbol>
+    <equipo>
+        <nombre>Real Madrir</nombre>
+        <entrenador>Zinedine Zidane</entrenador>
+        <ciudad>Madrid</ciudad>
+        <jugadores>
+            <jugador posición="Delantero">
+                <nombre>Ronaldo</nombre>
+                <nacionalidad>Portuguesa</nacionalidad>
+            </jugador>
+        
+        </jugadores>
+    </equipo>
+
+    <equipo>
+        <nombre>Real Madrir</nombre>
+        <entrenador>Zinedine Zidane</entrenador>
+        <ciudad>Madrid</ciudad>
+        <jugadores>
+            <jugador posición="Delantero">
+                <nombre>Ronaldo</nombre>
+                <nacionalidad>Portuguesa</nacionalidad>
+            </jugador>
+        
+        </jugadores>
+    </equipo>
+
+
+</equiposFutbol>

@@ -1,0 +1,14 @@
+<?xml version?="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias de la web</title>
+        <link>http://www.iescierva.net</link>
+        <description>Noticias de la web del IES Cierva</description>
+
+        <item>
+            <title>Noticia1</title>
+            <link>http://www.iescierva.net/noticia1.html</link>
+            <description>Descripción de la noticia 1</description>
+            <fecha>2018-12-01</fecha>
+        </item>
+    </channel>
