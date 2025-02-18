@@ -1,0 +1,17 @@
+<mezclaColores>
+    <mezcla resultado="naranja">
+        <color>rojo</color>
+        <color>amarillo</color>
+    </mezcla>
+
+    <mezcla resultado="gris">
+        <color>blanco</color>
+        <color>negro</color>
+    </mezcla>
+
+    <mezcla resultado="verde claro">
+        <color>amarillo</color>
+        <color>azul</color>
+        <color>blanco</color>
+    </mezcla>
+</mezclaColores>

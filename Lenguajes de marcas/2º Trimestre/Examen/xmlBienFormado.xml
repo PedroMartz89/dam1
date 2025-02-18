@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coleccionLibros>
+    <estanteria>
+        <libro>
+            <sitioEnEstanteria estante="1">
+                <titulo editorial="adada">El Quijote</titulo>
+                <autor>Miguel de Cervantes</autor>
+                <año>1605</año>
+            </sitioEnEstanteria>
+        </libro>
+
+        <libro>
+            <titulo editorial="dsadada">El Señor de los Anillos</titulo>
+            <autor>J.R.R. Tolkien</autor>
+            <año>1954</año>
+        </libro>
+    </estanteria>
+
+    <digitales>
+        <libro>
+            <titulo editorial="daada">La divina comedia</titulo>
+            <autor>Dante</autor>
+            <año>1304</año>
+        </libro>
+        
+        <libro>
+            <titulo editorial="dada">El código Da Vinci</titulo>
+            <autor>Dan Brown</autor>
+            <año>2003</año>
+        </libro>
+    </digitales>
+</coleccionLibros>
