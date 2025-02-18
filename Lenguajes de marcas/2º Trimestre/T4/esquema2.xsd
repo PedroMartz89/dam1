@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<ciclo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ejercicio_ciclo.xsd">
+<nombre>DAM</nombre>
+<alumnos>
+        <alumno>
+              <nre>32432532</nre>
+              <nombre>Pepito</nombre>
+              <notas>
+                    <nota>
+                          <asignatura>LM</asignatura>
+                          <resultado>10</resultado>
+                    </nota>
+                    <nota>
+                          <asignatura>BD</asignatura>
+                          <resultado>9.5</resultado>
+                    </nota>
+              </notas>
+              <direccion>
+                    <calle>Calle Falsa</calle>
+                    <numero>4</numero>
+              </direccion>
+        </alumno>
+</alumnos>
+</ciclo> -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumnos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="alumnos" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nre" type="xs:int" maxOccurs="unbounded"></xs:element>
+                            <xs:element name="nombre" type="xs:string" maxOccurs="unbounded"></xs:element>
+                            <xs:element name="notas" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nota" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="asignatura" type="xs:string"></xs:element>
+                                                    <xs:element name="resultado" type="xs:decimal"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
