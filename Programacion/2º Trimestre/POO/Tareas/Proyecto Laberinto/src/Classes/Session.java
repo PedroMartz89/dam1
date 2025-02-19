@@ -18,30 +18,31 @@ public class Session {
     public boolean login() {
 
         Scanner input = new Scanner(System.in);
-        Config config = new Config();
-        boolean logged = false;
+        Config conf = new Config();
+        boolean login = false;
 
         System.out.print("Introduce el nombre de usuario: ");
-        String user = input.nextLine();
+        String usr = input.nextLine();
 
         System.out.print("Introduce la contraseña: ");
         String passwd = input.nextLine();
 
         try {
-            File text = new File(config.getFILE_PATH());
-            Scanner read = new Scanner(text);
+            File text = new File(conf.getFILE_PATH());
+            try (Scanner read = new Scanner(text)) {
 
-            while (read.hasNextLine()) {
+                while (read.hasNextLine()) {
 
-                String info = read.nextLine();
-                String[] array1 = info.split("#");
+                    String info = read.nextLine();
+                    String[] array1 = info.split("#");
 
-               if (array1[0].equals(user) && array1[1].equals(passwd)) {
+                    if (array1[0].equals(usr) && array1[1].equals(passwd)) {
 
-                   this.user = new User(array1[0],array1[2],array1[3],array1[4],array1[5],array1[6],"user");
-                   logged = true;
-                   break;
-               }
+                        this.user = new User(array1[0], array1[2], array1[3], array1[4], array1[5], array1[6], "user");
+                        logged = true;
+                        break;
+                    }
+                }
             }
 
 
@@ -49,7 +50,7 @@ public class Session {
             System.err.println("Error: Archivo no encontrado.");
         }
 
-        this.logged = logged;
+        this.logged = login;
         return logged;
     }
 
@@ -58,9 +59,10 @@ public class Session {
         try {
 
 
-            FileWriter writer = new FileWriter(config.getFILE_PATH(), true);
-            writer.write(user + "#" + passwd + "#" + name + "#" + nif + "#" + email + "#" + address + "#" + birthday + "\n" );
-            writer.close();
+            try (FileWriter writer = new FileWriter(config.getFILE_PATH(), true)) {
+                writer.write(user + "#" + passwd + "#" + name + "#" + nif + "#" + email + "#" + address + "#" + birthday + "\n");
+            }
+
 
         } catch (IOException e) {
             return "Fichero no encontrado.";
