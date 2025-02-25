@@ -1,4 +1,4 @@
-public class ej7 {
+public class Ej7 {
     public static void main(String[] args) {
 
         String texto = "Oracle ha anunciado hoy su nueva generación de compilador Java hoy. Utiliza analizador avanzado y optimizador especial para la JVM de Oracle";
