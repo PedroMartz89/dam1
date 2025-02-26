@@ -1,17 +1,42 @@
 package Classes;
 
-public class Config {
+/**
+ * Clase que contiene la configuración del programa.
+ * @version 0.1.0
+ * @author Pedro
+ */
 
+public class Config {
+    /**  
+     *Versión del programa.
+     */
     private String VERSION = "0.1";
+    /**
+     * Ruta del archivo de usuarios.
+     */
     private String FILE_PATH = "./assets/files/users.txt";
+    /**
+     * Nombre del fichero de usuarios.
+     */
     private String USERS_FILE = "users.txt";
+    /**
+     * Mensaje de bienvenida.
+     */
     private String WELCOME = "BIENVENIDO AL LABERINTO";
+    /**
+     * Mensaje de despedida.
+     */
     private String GOODBYE = "Adiós!";
+    /**
+     * Menú para usuarios no logueados.
+     */
     private String UNLOGGED_MENU = "Seleccione una opción: \n" +
             "1 Iniciar sesión\n" +
             "2 Registro\n" +
             "0 Salir";
-
+    /**
+     * Menú para usuarios logueados.
+     */
     private String LOGGED_MENU = "" +
             "1 Cargar laberinto\n" +
             "2 Ver laberinto actual\n" +

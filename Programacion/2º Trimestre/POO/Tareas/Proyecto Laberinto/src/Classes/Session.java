@@ -1,11 +1,28 @@
+/**
+ * 
+ * @author: Pedro Martinez Sanchez
+ * @version: 0.1.0
+ * 
+ */
+
 package Classes;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class Session {
+/**
+ * Clase que gestiona la sesión de usuario.
+ */
 
+public class Session {
+    
+    /**  
+     *Usuario que ha iniciado sesión.
+     */ 
     private User user;
+    /**  
+     *Estado de la sesión.
+     */ 
     private boolean logged;
 
     Config config = new Config();
@@ -14,6 +31,12 @@ public class Session {
         this.user = new User();
         this.logged = false;
     }
+
+    /**
+     * 
+     * Metodo que permite iniciar sesión.
+     * @return Devuelve true si el usuario ha iniciado sesión correctamente.
+     */
 
     public boolean login() {
 
@@ -54,6 +77,18 @@ public class Session {
         return logged;
     }
 
+    /**
+     * Metodo que permite registrar un nuevo usuario escribiendolo en un fichero.
+     * @param user: Nombre del usuario.
+     * @param passwd: Contraseña del usuario.
+     * @param name: Nombre completo del usuario.
+     * @param nif: NIF del usuario.
+     * @param email: Email del usuario.
+     * @param address: Dirección del usuario.
+     * @param birthday: Fecha de nacimiento del usuario.
+     * @return Devuelve un mensaje de confirmación si el usuario se ha registrado correctamente.
+     */
+
     public String signup(String user, String passwd, String name, String nif, String email, String address, String birthday) {
 
         try {
@@ -71,7 +106,9 @@ public class Session {
         return "Usuario registrado correctamente.";
     }
 
-
+    /**
+     * Método que permite mostrar la información del usuario que ha iniciado sesión.
+     */
     public void showUser() {
 
         if (this.logged && this.user != null) {

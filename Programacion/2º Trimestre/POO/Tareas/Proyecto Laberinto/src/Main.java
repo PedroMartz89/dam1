@@ -1,14 +1,13 @@
 import Classes.Config;
 import Classes.Interface;
 import Classes.Session;
-
 import java.util.Scanner;
 
 /**
- * Main.java
+ * 
  * Programa principal del sistema para resolver un laberinto
- * DMS - 2021.11.27
- * version 0.1.0
+ * @author Pedro
+ * @version 0.1.0
  */
 
 public class Main {
