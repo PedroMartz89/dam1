@@ -17,7 +17,7 @@ public class ListaEnlazada {
     /**
      * Añade un elemento al final de la lista.
      *
-     * @param - el elemento a añadir.
+     * @param dato- el elemento a añadir.
      *             Admite que el elemento a añadir sea null.
      */
     public void add(Object dato) {
@@ -172,25 +172,28 @@ public class ListaEnlazada {
         return numElementos;
     }
 
-    public ListaEnlazada ordenarBurbuja(ListaEnlazada lista) {
 
-        Nodo aux = null;
+    public void ordenarBurbuja() {
 
-        for (int i = 0; i < numElementos; i++) {
+        for (int i = 0; i < numElementos - 1; i++) {
 
-            Object dato = lista.get(i);
-            Object dato2 = lista.get(i+1);
-            if (dato.toString().charAt(0) > dato2.toString().charAt(0)) {
-                System.out.println(lista.obtenerNodo(i).toString());
-                aux = obtenerNodo(i);
-                lista.remove(i);
-                lista.add(i, obtenerNodo(i+1));
-                lista.add(i+1, aux);
+            Nodo aux = primero;
 
+            for (int j = i + 1; j < numElementos - 1; j++) {
+
+                if (aux.dato.toString().compareTo(aux.siguiente.dato.toString()) > 0) {
+
+                    Object tmp = aux.dato;
+                    aux.dato = aux.siguiente.dato;
+                    aux.siguiente.dato = tmp;
+                }
+
+                aux = aux.siguiente;
             }
         }
-        return lista;
+
     }
+
 }
 
 

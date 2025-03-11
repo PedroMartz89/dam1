@@ -10,8 +10,8 @@ public class Main {
         for (int i = 0; i < listaCompra.size(); i++) {
             System.out.println(listaCompra.get(i));
         }
-
-        listaCompra = listaCompra.ordenarBurbuja(listaCompra);
+        System.out.println("\nLista de la compra ordenada:");
+        listaCompra.ordenarBurbuja();
         for (int i = 0; i < listaCompra.size(); i++) {
             System.out.println(listaCompra.get(i));
         }
