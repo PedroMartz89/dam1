@@ -107,7 +107,7 @@ public class Session {
     }
 
     /**
-     * Método que permite mostrar la información del usuario que ha iniciado sesión.
+     * Metodo que permite mostrar la información del usuario que ha iniciado sesión.
      */
     public void showUser() {
 
