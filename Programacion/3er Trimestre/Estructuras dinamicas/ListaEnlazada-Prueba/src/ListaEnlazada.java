@@ -157,13 +157,14 @@ public class ListaEnlazada {
      * @throws IndexOutOfBoundsException - índice no está entre 0 y numElementos-1.
      */
     public Object get(int indice) {
-        // lanza excepción si el índice no es válido
+// lanza excepción si el índice no es válido
         if (indice >= numElementos || indice < 0) {
             throw new IndexOutOfBoundsException("índice incorrecto: " + indice);
         }
         Nodo aux = obtenerNodo(indice);
         return aux.dato;
     }
+
 
     /**
      * @return el número de elementos de la lista
@@ -194,6 +195,33 @@ public class ListaEnlazada {
 
     }
 
+    public int contarProductos(ListaEnlazada listaEnlazada) {
+        return listaEnlazada.numElementos;
+    }
+
+    public ListaEnlazada invertirLista(ListaEnlazada listaEnlazada) {
+
+        ListaEnlazada lista = new ListaEnlazada();
+
+        if (listaEnlazada.numElementos == 0) { return listaEnlazada; }
+
+        for (int i = listaEnlazada.numElementos; i > 0; i--) {
+
+            lista.add(listaEnlazada.obtenerNodo(i-1).dato);
+        }
+
+        return lista;
+    }
+
+    public void eliminarPalabraClave(String palabra, ListaEnlazada lista) {
+
+        for (int i = 0; i < numElementos; i++) {
+
+            if (obtenerNodo(i).dato.toString().contains(palabra)) {
+                lista.remove(i);
+            }
+        }
+    }
 }
 
 
