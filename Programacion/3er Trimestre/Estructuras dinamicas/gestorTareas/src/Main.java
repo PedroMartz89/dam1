@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Tarea> listaTareas = new ArrayList<Tarea>();
+        ArrayList<Tarea> listaTareas = new ArrayList<>();
 
         listaTareas.add(new Tarea("Tender la ropa", "Pedro", 1, "Casa"));
         listaTareas.add(new Tarea("Estudiar programación", "Pedro", 2, "Biblioteca"));
@@ -32,14 +32,13 @@ public class Main {
 
     public static void completarTarea(String nombre, ArrayList<Tarea> tarea) {
 
-        for (int i = 0; i < tarea.size(); i++) {
+        for (Tarea value : tarea) {
 
-            if (nombre.equals(tarea.get(i).getNombre())) {
-                if (tarea.get(i).isTerminada()) {
+            if (nombre.equals(value.getNombre())) {
+                if (value.isTerminada()) {
                     System.out.println("La tarea ya se encuentra terminada");
-                }
-                else {
-                    tarea.get(i).setTerminada(true);
+                } else {
+                    value.setTerminada(true);
                 }
             }
         }
