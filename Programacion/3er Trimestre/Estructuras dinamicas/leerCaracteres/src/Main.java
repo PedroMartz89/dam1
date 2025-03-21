@@ -1,3 +1,4 @@
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -9,6 +10,13 @@ public class Main {
         System.out.println("Escribe la frase: ");
         String s = sc.nextLine();
 
+        //solucionPila();
+        //
+
+    }
+
+    public static void solucionPila() {
+
         //Solucion con pila
         Stack<Character> pila = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
@@ -18,6 +26,13 @@ public class Main {
 
         for (int i = pila.size() - 1; i >= 0; i--) {
             System.out.print(pila.pop());
+        }
+    }
+
+    public static void solucionQueue() {
+
+        //Solucion con Queue
+        Queue<Character> cola = new Queue<>() {
         }
 
     }
