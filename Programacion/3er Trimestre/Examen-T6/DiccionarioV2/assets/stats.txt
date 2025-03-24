@@ -1,0 +1,5 @@
+Estadísticas
+Total preguntas: 5
+Total aciertos: 4.0
+Total fallos: 1.0
+Estadística de fallos: 80.0%
