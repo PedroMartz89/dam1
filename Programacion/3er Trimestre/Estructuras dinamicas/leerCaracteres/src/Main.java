@@ -19,7 +19,7 @@ public class Main {
 
         //Solucion con pila
         Stack<Character> pila = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < p.length(); i++) {
             char caracter = s.charAt(i);
             pila.push(caracter);
         }

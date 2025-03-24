@@ -28,7 +28,6 @@ public class ListaEnlazada {
     public void add(Object dato) {
 
         Nodo nuevo = new Nodo(dato);
-        Nodo siguiente = null;
 
         if (numElementos == 0) {
             primero = nuevo;
@@ -40,7 +39,7 @@ public class ListaEnlazada {
         }
         numElementos++;
     }
-
+    //Metodo que elimina el
     public Object removePrimero() {
 
         Nodo actual = primero;
@@ -120,6 +119,7 @@ public class ListaEnlazada {
             actual = getNodo(indice);
         }
 
+        assert actual != null;
         return actual.dato;
     }
 
