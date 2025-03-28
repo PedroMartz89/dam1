@@ -1,0 +1,4119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultset>
+	<row>
+		<codigo>586</codigo>
+		<nombre>AMINOFILINA</nombre>
+		<contentracion>250mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-12-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>11.74</precio>
+		<stock>50</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>592</codigo>
+		<nombre>AMIODARONA</nombre>
+		<contentracion>150mg/3mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2014-03-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>47.79</precio>
+		<stock>138</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1092</codigo>
+		<nombre>ATROPINA SULFATO</nombre>
+		<contentracion>0.25mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.60</precio>
+		<stock>203</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1093</codigo>
+		<nombre>ATROPINA SULFATO</nombre>
+		<contentracion>0.5mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.84</precio>
+		<stock>203</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1094</codigo>
+		<nombre>ATROPINA SULFATO</nombre>
+		<contentracion>1mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-04-23</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>21.26</precio>
+		<stock>106</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1542</codigo>
+		<nombre>BICARBONATO DE SODIO</nombre>
+		<contentracion>8.4%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2011-08-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.99</precio>
+		<stock>87</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1845</codigo>
+		<nombre>BUPIVACAINA</nombre>
+		<contentracion>0.5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2010-10-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>33.64</precio>
+		<stock>61</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>1846</codigo>
+		<nombre>BUPIVACAINA</nombre>
+		<contentracion>0.5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2009-03-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.95</precio>
+		<stock>184</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2067</codigo>
+		<nombre>CARBOPLATINO</nombre>
+		<contentracion>150mg/15mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial X 15 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-07-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.32</precio>
+		<stock>40</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2068</codigo>
+		<nombre>CARBOPLATINO</nombre>
+		<contentracion>450mg/45mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial X 45 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-07-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.90</precio>
+		<stock>194</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2826</codigo>
+		<nombre>CLORFENAMINA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.51</precio>
+		<stock>224</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2850</codigo>
+		<nombre>CLORPROMAZINA</nombre>
+		<contentracion>25mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-07-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.57</precio>
+		<stock>267</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2853</codigo>
+		<nombre>CLORURO DE POTASIO</nombre>
+		<contentracion>14.9%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-03-13</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.37</precio>
+		<stock>16</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2854</codigo>
+		<nombre>CLORURO DE POTASIO</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>44.64</precio>
+		<stock>218</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2855</codigo>
+		<nombre>CLORURO DE POTASIO</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.11</precio>
+		<stock>142</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2860</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.19</precio>
+		<stock>286</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2861</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>11.14</precio>
+		<stock>98</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>2862</codigo>
+		<nombre>CLORURO DE POTASIO</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.77</precio>
+		<stock>233</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3251</codigo>
+		<nombre>DABENZOL</nombre>
+		<contentracion>50mg</contentracion>
+		<formato>Polvo para Suspensión Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-11-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>12.50</precio>
+		<stock>100</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3252</codigo>
+		<nombre>DABENZOL</nombre>
+		<contentracion>100mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-11-08</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.26</precio>
+		<stock>38</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3253</codigo>
+		<nombre>DABUREX</nombre>
+		<contentracion>300mg/50mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial X 50 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-10-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.96</precio>
+		<stock>191</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>3256</codigo>
+		<nombre>DACARBAZINA</nombre>
+		<contentracion>200mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>36.68</precio>
+		<stock>42</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3495</codigo>
+		<nombre>DEXAMETASONA</nombre>
+		<contentracion>4mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-05-20</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.62</precio>
+		<stock>273</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>3534</codigo>
+		<nombre>DEXTROSA</nombre>
+		<contentracion>33.3%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2015-03-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>42.45</precio>
+		<stock>286</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>3591</codigo>
+		<nombre>DIAZEPAM</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.83</precio>
+		<stock>246</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3634</codigo>
+		<nombre>DICLOFENACO</nombre>
+		<contentracion>75mg/3mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 3 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.37</precio>
+		<stock>170</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3800</codigo>
+		<nombre>DOBUTAMINA</nombre>
+		<contentracion>250mg/20mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-03-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>35.43</precio>
+		<stock>207</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>3803</codigo>
+		<nombre>DOCETAXEL</nombre>
+		<contentracion>20mg/0.5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-01-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>44.35</precio>
+		<stock>13</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>3804</codigo>
+		<nombre>DOCETAXEL</nombre>
+		<contentracion>80mg/2mL</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-01-05</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.82</precio>
+		<stock>210</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>3997</codigo>
+		<nombre>DOPAMINA</nombre>
+		<contentracion>200mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.76</precio>
+		<stock>256</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4395</codigo>
+		<nombre>EPINEFRINA</nombre>
+		<contentracion>1mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-12-31</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.44</precio>
+		<stock>32</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4414</codigo>
+		<nombre>ERGOMETRINA</nombre>
+		<contentracion>0.2mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-11-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>35.24</precio>
+		<stock>27</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4462</codigo>
+		<nombre>HIOSCINA BUTILBROMURO</nombre>
+		<contentracion>20mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-05-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.32</precio>
+		<stock>249</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4552</codigo>
+		<nombre>ETOPOSIDO</nombre>
+		<contentracion>100mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-11-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.92</precio>
+		<stock>51</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4792</codigo>
+		<nombre>FENTANILO</nombre>
+		<contentracion>0.5mg</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2010-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.45</precio>
+		<stock>182</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>4878</codigo>
+		<nombre>FITOMENADIONA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.48</precio>
+		<stock>28</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>5159</codigo>
+		<nombre>FUROSEMIDA</nombre>
+		<contentracion>20mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2009-12-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.91</precio>
+		<stock>253</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>5160</codigo>
+		<nombre>FUROSEMIDA</nombre>
+		<contentracion>20mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-09-20</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.25</precio>
+		<stock>31</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>5435</codigo>
+		<nombre>GLUCONATO DE CALCIO</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2014-03-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>18.18</precio>
+		<stock>232</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>5570</codigo>
+		<nombre>HALOPERIDOL</nombre>
+		<contentracion>5mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>49.99</precio>
+		<stock>224</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>5637</codigo>
+		<nombre>HEPARINA SODICA</nombre>
+		<contentracion>25000UI</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2008-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.30</precio>
+		<stock>134</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>6349</codigo>
+		<nombre>KETAMINA</nombre>
+		<contentracion>500mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2010-08-31</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>43.64</precio>
+		<stock>59</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>6380</codigo>
+		<nombre>KETOPROFENO</nombre>
+		<contentracion>100mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2010-10-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>42.39</precio>
+		<stock>194</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>6595</codigo>
+		<nombre>LANATOSIDO C</nombre>
+		<contentracion>0.4mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2014-10-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.35</precio>
+		<stock>23</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>6783</codigo>
+		<nombre>LIDOCAINA</nombre>
+		<contentracion>5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.26</precio>
+		<stock>276</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>6789</codigo>
+		<nombre>LIDOCAINA</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2010-11-23</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.34</precio>
+		<stock>167</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>7395</codigo>
+		<nombre>METAMIZOL</nombre>
+		<contentracion>1g/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-07-10</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.91</precio>
+		<stock>35</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>7423</codigo>
+		<nombre>METOCLOPRAMIDA</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>40.52</precio>
+		<stock>25</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>7452</codigo>
+		<nombre>METRONIDAZOL</nombre>
+		<contentracion>500mg/100mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Bolsa X 100 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2013-04-23</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.17</precio>
+		<stock>14</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>7927</codigo>
+		<nombre>NEOSTIGMINA METIL SULFATO</nombre>
+		<contentracion>0.5mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2014-03-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.66</precio>
+		<stock>268</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>8241</codigo>
+		<nombre>NITROGLICERINA</nombre>
+		<contentracion>25mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2010-07-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.52</precio>
+		<stock>104</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>8713</codigo>
+		<nombre>OXITOCINA</nombre>
+		<contentracion>10UI/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>28.72</precio>
+		<stock>224</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>9427</codigo>
+		<nombre>RANITIDINA</nombre>
+		<contentracion>50mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-10-13</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.17</precio>
+		<stock>258</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>10354</codigo>
+		<nombre>SULFATO DE ZINC</nombre>
+		<contentracion>0.88%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2011-06-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.60</precio>
+		<stock>231</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>10827</codigo>
+		<nombre>TOPOTECAN</nombre>
+		<contentracion>4mg/4mL</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial X 4mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-11-18</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.58</precio>
+		<stock>151</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>10941</codigo>
+		<nombre>TRINOTECAN</nombre>
+		<contentracion>100mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-06-15</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.24</precio>
+		<stock>262</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>11362</codigo>
+		<nombre>VERAPAMILO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2014-02-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.90</precio>
+		<stock>32</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>20703</codigo>
+		<nombre>BICARBONATO DE SODIO</nombre>
+		<contentracion>8.4%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Amp. X 20 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-08-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.76</precio>
+		<stock>202</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>25445</codigo>
+		<nombre>AMINOSTERIL N-HEPA</nombre>
+		<contentracion>8%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 100 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2013-08-27</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.84</precio>
+		<stock>157</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>25610</codigo>
+		<nombre>NEPHROSTERIL</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 250 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-08-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>44.84</precio>
+		<stock>45</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>25681</codigo>
+		<nombre>TRACITRANS PLUS</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2010-10-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.95</precio>
+		<stock>209</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>26039</codigo>
+		<nombre>RANITIDINA</nombre>
+		<contentracion>50mg</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2010-01-21</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.75</precio>
+		<stock>75</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>26379</codigo>
+		<nombre>HEPARINA SODICA</nombre>
+		<contentracion>5000UI/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2013-12-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.49</precio>
+		<stock>165</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>26403</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>14.38</precio>
+		<stock>190</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>26651</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>14.91</precio>
+		<stock>97</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>26657</codigo>
+		<nombre>LIPOVENOS</nombre>
+		<contentracion/>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-07-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>36.53</precio>
+		<stock>27</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27417</codigo>
+		<nombre>DIAZEPAM</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-06-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>30.12</precio>
+		<stock>185</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27418</codigo>
+		<nombre>DICLOFENACO</nombre>
+		<contentracion>75mg/3mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 3 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.19</precio>
+		<stock>65</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27420</codigo>
+		<nombre>ERGOMETRINA</nombre>
+		<contentracion>0.2mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-11-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>4.43</precio>
+		<stock>168</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27423</codigo>
+		<nombre>FUROSEMIDA</nombre>
+		<contentracion>20mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2009-12-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.62</precio>
+		<stock>64</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27427</codigo>
+		<nombre>OXITOCINA</nombre>
+		<contentracion>10UI/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2010-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.34</precio>
+		<stock>100</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>27516</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion/>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-08-20</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>13.73</precio>
+		<stock>97</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27562</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.60</precio>
+		<stock>61</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27619</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.74</precio>
+		<stock>134</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27787</codigo>
+		<nombre>EPINEFRINA</nombre>
+		<contentracion>1mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-12-31</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.18</precio>
+		<stock>118</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27799</codigo>
+		<nombre>DOPAMINA</nombre>
+		<contentracion>200mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>18.70</precio>
+		<stock>14</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>27829</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>3.81</precio>
+		<stock>178</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28607</codigo>
+		<nombre>AMINOFILINA</nombre>
+		<contentracion>250mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-12-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.17</precio>
+		<stock>61</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28698</codigo>
+		<nombre>CLORFENAMINA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-02</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.53</precio>
+		<stock>286</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28699</codigo>
+		<nombre>CLORPROMAZINA</nombre>
+		<contentracion>25mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2010-07-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>27.69</precio>
+		<stock>153</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28712</codigo>
+		<nombre>HIOSCINA BUTILBROMURO</nombre>
+		<contentracion>20mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-05-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.99</precio>
+		<stock>65</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28720</codigo>
+		<nombre>HALOPERIDOL</nombre>
+		<contentracion>5mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>26.35</precio>
+		<stock>101</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28726</codigo>
+		<nombre>LANATOSIDO C</nombre>
+		<contentracion>0.4mg/mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2014-10-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.49</precio>
+		<stock>287</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28757</codigo>
+		<nombre>AMINOVEN INFANT 10%</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 250 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2015-09-13</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>10.29</precio>
+		<stock>64</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28905</codigo>
+		<nombre>BUPIVACAINA</nombre>
+		<contentracion>0.5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2010-10-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>35.20</precio>
+		<stock>291</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>28942</codigo>
+		<nombre>SMOFLIPID</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Emulsión Líquida</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 500 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-01-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.21</precio>
+		<stock>146</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29013</codigo>
+		<nombre>GENTAMICINA</nombre>
+		<contentracion>80mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2011-03-08</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>28.25</precio>
+		<stock>78</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29208</codigo>
+		<nombre>DOBUTAMINA</nombre>
+		<contentracion>250mg/20mL</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2013-03-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.39</precio>
+		<stock>1</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29266</codigo>
+		<nombre>FENTANILO</nombre>
+		<contentracion>0.5mg</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2015-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.95</precio>
+		<stock>98</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29267</codigo>
+		<nombre>FENTANILO</nombre>
+		<contentracion>0.5mg</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2015-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>21.27</precio>
+		<stock>91</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29268</codigo>
+		<nombre>FENTANILO</nombre>
+		<contentracion>0.5mg</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2015-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.65</precio>
+		<stock>161</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29278</codigo>
+		<nombre>AMINOVEN</nombre>
+		<contentracion>10mg/100mL</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-04-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.14</precio>
+		<stock>186</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29281</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.1mg/mL</contentracion>
+		<formato>Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2013-05-05</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.10</precio>
+		<stock>89</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>29618</codigo>
+		<nombre>POLIGELINA</nombre>
+		<contentracion>3.5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2017-07-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.70</precio>
+		<stock>297</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30081</codigo>
+		<nombre>POLIGELINA</nombre>
+		<contentracion>3.5%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 500 mL</presentacion>
+		<fracciones>12</fracciones>
+		<fechaRegistro>2017-07-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>42.31</precio>
+		<stock>89</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30082</codigo>
+		<nombre>POLIGELINA</nombre>
+		<contentracion>3.5%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 500 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2017-07-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>30.68</precio>
+		<stock>82</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30083</codigo>
+		<nombre>POLIGELINA</nombre>
+		<contentracion>3.5%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 500 mL</presentacion>
+		<fracciones>24</fracciones>
+		<fechaRegistro>2017-07-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>34.79</precio>
+		<stock>141</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30084</codigo>
+		<nombre>POLIGELINA</nombre>
+		<contentracion>3.5%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. X 500 mL</presentacion>
+		<fracciones>48</fracciones>
+		<fechaRegistro>2017-07-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>14.84</precio>
+		<stock>160</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30085</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-05-05</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.88</precio>
+		<stock>76</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30086</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion/>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.86</precio>
+		<stock>202</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30087</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.69</precio>
+		<stock>181</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30088</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.86</precio>
+		<stock>1</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30089</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.85</precio>
+		<stock>58</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30090</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.86</precio>
+		<stock>291</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30091</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>200</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>38.57</precio>
+		<stock>79</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30092</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>30.45</precio>
+		<stock>121</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30093</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.33</precio>
+		<stock>70</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30094</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>4.80</precio>
+		<stock>288</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30095</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.23</precio>
+		<stock>30</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30096</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.16</precio>
+		<stock>187</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30097</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>40.40</precio>
+		<stock>244</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30098</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 10 mL</presentacion>
+		<fracciones>200</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.12</precio>
+		<stock>58</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30099</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>30.70</precio>
+		<stock>157</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30100</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>49.21</precio>
+		<stock>14</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30101</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.30</precio>
+		<stock>196</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30102</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 100 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.16</precio>
+		<stock>38</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30103</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 100 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.21</precio>
+		<stock>204</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30104</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 100 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.72</precio>
+		<stock>5</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30105</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 100 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.73</precio>
+		<stock>12</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30106</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 100 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>27.71</precio>
+		<stock>47</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30107</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 500 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>46.55</precio>
+		<stock>200</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30108</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 500 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>49.60</precio>
+		<stock>258</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30109</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 500 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.74</precio>
+		<stock>88</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30110</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 500 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>36.10</precio>
+		<stock>268</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30111</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 500 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.50</precio>
+		<stock>176</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30112</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 1 L</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>34.48</precio>
+		<stock>76</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30113</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 1 L</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>47.93</precio>
+		<stock>151</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30114</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 1 L</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.55</precio>
+		<stock>228</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30115</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 1 L</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>39.76</precio>
+		<stock>87</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30116</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 1 L</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.80</precio>
+		<stock>49</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30135</codigo>
+		<nombre>RANITIDINA</nombre>
+		<contentracion>50mg</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2015-01-21</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.32</precio>
+		<stock>89</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30431</codigo>
+		<nombre>HEPARINA SODICA</nombre>
+		<contentracion>5000UI/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-12-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>36.83</precio>
+		<stock>30</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30432</codigo>
+		<nombre>HEPARINA SODICA</nombre>
+		<contentracion>5000UI/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>13.15</precio>
+		<stock>101</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30433</codigo>
+		<nombre>HEPARINA SODICA</nombre>
+		<contentracion>5000UI/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. X 5 mL</presentacion>
+		<fracciones>200</fracciones>
+		<fechaRegistro>2013-12-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>18.68</precio>
+		<stock>116</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30806</codigo>
+		<nombre>AMINOVEN</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-04-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.96</precio>
+		<stock>89</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30808</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-05-05</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>11.95</precio>
+		<stock>286</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30811</codigo>
+		<nombre>MIDAZOLAM</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2015-11-21</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.59</precio>
+		<stock>139</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30825</codigo>
+		<nombre>AMINOVEN</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-04-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>26.28</precio>
+		<stock>246</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30934</codigo>
+		<nombre>AMINOFILINA</nombre>
+		<contentracion>250mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-12-18</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.26</precio>
+		<stock>4</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30935</codigo>
+		<nombre>AMINOFILINA</nombre>
+		<contentracion>250mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2012-12-18</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.18</precio>
+		<stock>184</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30936</codigo>
+		<nombre>AMINOFILINA</nombre>
+		<contentracion>250mg/10mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-12-18</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>13.80</precio>
+		<stock>4</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>30996</codigo>
+		<nombre>AMINOVEN INFANT</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. x 100 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2015-09-15</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>13.73</precio>
+		<stock>163</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31082</codigo>
+		<nombre>LANATOSIDO C</nombre>
+		<contentracion>0.4mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2014-10-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>43.80</precio>
+		<stock>259</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31083</codigo>
+		<nombre>LANATOSIDO C</nombre>
+		<contentracion>0.4mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2014-10-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.15</precio>
+		<stock>18</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31084</codigo>
+		<nombre>LANATOSIDO C</nombre>
+		<contentracion>0.4mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2014-10-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.27</precio>
+		<stock>212</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31277</codigo>
+		<nombre>FITOMENADIONA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.59</precio>
+		<stock>260</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31278</codigo>
+		<nombre>FITOMENADIONA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>33.58</precio>
+		<stock>185</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31279</codigo>
+		<nombre>FITOMENADIONA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.20</precio>
+		<stock>143</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31280</codigo>
+		<nombre>FITOMENADIONA</nombre>
+		<contentracion>10mg/mL</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.26</precio>
+		<stock>161</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31348</codigo>
+		<nombre>KETOPROFENO</nombre>
+		<contentracion>100mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2015-10-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>20.39</precio>
+		<stock>122</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31349</codigo>
+		<nombre>KETOPROFENO</nombre>
+		<contentracion>100mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2015-10-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.63</precio>
+		<stock>266</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31351</codigo>
+		<nombre>KETOPROFENO</nombre>
+		<contentracion>100mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2015-10-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.39</precio>
+		<stock>125</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31360</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.62</precio>
+		<stock>61</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31361</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>2</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>40.51</precio>
+		<stock>262</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31362</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>3</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.54</precio>
+		<stock>226</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31363</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>4</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>39.40</precio>
+		<stock>45</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31364</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.33</precio>
+		<stock>146</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31365</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>6</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.87</precio>
+		<stock>295</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31366</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>8</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.44</precio>
+		<stock>138</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31368</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>20.21</precio>
+		<stock>109</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31369</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>12</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>12.69</precio>
+		<stock>233</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31370</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>15</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.86</precio>
+		<stock>235</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31371</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>38.49</precio>
+		<stock>177</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31372</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.16</precio>
+		<stock>178</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31373</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.92</precio>
+		<stock>60</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31374</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>12.90</precio>
+		<stock>68</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31375</codigo>
+		<nombre>DOXORUBICINA</nombre>
+		<contentracion>10mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2011-06-17</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.70</precio>
+		<stock>160</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>31457</codigo>
+		<nombre>DIPEPTIVEN</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. x 100 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-04-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>49.74</precio>
+		<stock>48</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31458</codigo>
+		<nombre>DIPEPTIVEN</nombre>
+		<contentracion/>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. x 50 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-04-09</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.23</precio>
+		<stock>108</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31485</codigo>
+		<nombre>GLUCONATO DE CALCIO</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 10 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2014-03-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.52</precio>
+		<stock>292</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31486</codigo>
+		<nombre>GLUCONATO DE CALCIO</nombre>
+		<contentracion>10%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2014-03-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.55</precio>
+		<stock>101</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31558</codigo>
+		<nombre>DIAZEPAM</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-06-13</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.81</precio>
+		<stock>153</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31559</codigo>
+		<nombre>DIAZEPAM</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-06-13</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.31</precio>
+		<stock>225</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31561</codigo>
+		<nombre>DOBUTAMINA</nombre>
+		<contentracion>250mg/20mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 20 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2013-03-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.66</precio>
+		<stock>249</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31563</codigo>
+		<nombre>DOBUTAMINA</nombre>
+		<contentracion>250mg/20mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 20 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-03-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.24</precio>
+		<stock>297</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31825</codigo>
+		<nombre>METOCLOPRAMIDA</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.81</precio>
+		<stock>171</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31826</codigo>
+		<nombre>METOCLOPRAMIDA</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.99</precio>
+		<stock>125</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31827</codigo>
+		<nombre>METOCLOPRAMIDA</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>40.90</precio>
+		<stock>111</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31828</codigo>
+		<nombre>FENTANILO</nombre>
+		<contentracion>0.5mg/10mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 10 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2015-08-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.93</precio>
+		<stock>180</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31829</codigo>
+		<nombre>METOCLOPRAMIDA</nombre>
+		<contentracion>10mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-12-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.92</precio>
+		<stock>268</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31831</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.26</precio>
+		<stock>199</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31832</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>25.85</precio>
+		<stock>190</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31833</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>13.95</precio>
+		<stock>56</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31834</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.54</precio>
+		<stock>7</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31836</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>120</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>43.89</precio>
+		<stock>219</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31838</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>150</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.30</precio>
+		<stock>291</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31840</codigo>
+		<nombre>FLUMAZENIL</nombre>
+		<contentracion>0.5mg/5mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>200</fracciones>
+		<fechaRegistro>2013-05-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>3.49</precio>
+		<stock>112</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31898</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.52</precio>
+		<stock>8</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31901</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>1.23</precio>
+		<stock>222</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31904</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.76</precio>
+		<stock>117</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31905</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.89</precio>
+		<stock>179</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31906</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>4.56</precio>
+		<stock>242</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31907</codigo>
+		<nombre>CLINDAMICINA</nombre>
+		<contentracion>600mg/4mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2011-10-19</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.31</precio>
+		<stock>75</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31911</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.42</precio>
+		<stock>63</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31912</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>33.81</precio>
+		<stock>184</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31913</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.80</precio>
+		<stock>133</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31914</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.20</precio>
+		<stock>111</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31915</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>27.66</precio>
+		<stock>158</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31916</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.94</precio>
+		<stock>155</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31919</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>75</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>40.73</precio>
+		<stock>138</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31944</codigo>
+		<nombre>MIDAZOLAM</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2015-11-23</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>26.86</precio>
+		<stock>270</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>31946</codigo>
+		<nombre>MIDAZOLAM</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 5 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2015-11-23</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.75</precio>
+		<stock>299</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32061</codigo>
+		<nombre>NEOSTIGMINA METILSULFATO</nombre>
+		<contentracion>0.5mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2014-03-06</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>39.15</precio>
+		<stock>134</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32110</codigo>
+		<nombre>NITROGLICERINA</nombre>
+		<contentracion>25mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2015-07-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.50</precio>
+		<stock>20</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32111</codigo>
+		<nombre>NITROGLICERINA</nombre>
+		<contentracion>25mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2015-07-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.21</precio>
+		<stock>135</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32224</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>36.10</precio>
+		<stock>74</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32225</codigo>
+		<nombre>VOLUVEN</nombre>
+		<contentracion>6%</contentracion>
+		<formato>Solución Inyectable para Infusión IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Fco. Amp. x 500 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2017-05-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>28.38</precio>
+		<stock>251</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32226</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.58</precio>
+		<stock>130</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32227</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>15</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>14.60</precio>
+		<stock>196</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32228</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.36</precio>
+		<stock>291</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32229</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>38.40</precio>
+		<stock>269</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32230</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>11.60</precio>
+		<stock>173</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32232</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>4mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2016-11-26</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.35</precio>
+		<stock>59</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32242</codigo>
+		<nombre>VERAPAMILO CLORHIDRATO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2014-02-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.21</precio>
+		<stock>29</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32243</codigo>
+		<nombre>VERAPAMILO CLORHIDRATO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2014-02-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.38</precio>
+		<stock>35</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32244</codigo>
+		<nombre>VERAPAMILO CLORHIDRATO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2014-02-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.52</precio>
+		<stock>88</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32246</codigo>
+		<nombre>VERAPAMILO CLORHIDRATO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2014-02-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.48</precio>
+		<stock>215</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32248</codigo>
+		<nombre>VERAPAMILO CLORHIDRATO</nombre>
+		<contentracion>5mg/2mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2014-02-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>29.47</precio>
+		<stock>291</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32259</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2017-08-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.53</precio>
+		<stock>151</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32260</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2017-08-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>14.64</precio>
+		<stock>284</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32261</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2017-08-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>35.10</precio>
+		<stock>66</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32262</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2017-08-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.77</precio>
+		<stock>78</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32263</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>2%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2017-08-30</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.29</precio>
+		<stock>193</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32273</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.96</precio>
+		<stock>285</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32274</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.38</precio>
+		<stock>59</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32275</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>15</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.62</precio>
+		<stock>40</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32276</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.32</precio>
+		<stock>22</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32278</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.83</precio>
+		<stock>188</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32280</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>44.96</precio>
+		<stock>73</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32281</codigo>
+		<nombre>ONDANSETRON</nombre>
+		<contentracion>8mg/4mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.40</precio>
+		<stock>161</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32299</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.62</precio>
+		<stock>270</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32300</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>2</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>35.80</precio>
+		<stock>150</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32301</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>3</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.76</precio>
+		<stock>241</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32302</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.34</precio>
+		<stock>153</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32303</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>20.24</precio>
+		<stock>44</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32305</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.60</precio>
+		<stock>165</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32306</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>25</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.74</precio>
+		<stock>48</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32307</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>12.39</precio>
+		<stock>44</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32309</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.61</precio>
+		<stock>246</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32310</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.22</precio>
+		<stock>102</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32311</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.17</precio>
+		<stock>71</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32312</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>150</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>10.27</precio>
+		<stock>51</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32348</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>25.58</precio>
+		<stock>13</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32350</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>2</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.55</precio>
+		<stock>127</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32351</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>3</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.23</precio>
+		<stock>54</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32352</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>4</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.50</precio>
+		<stock>187</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32353</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>25.92</precio>
+		<stock>177</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32354</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>6</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>4.40</precio>
+		<stock>22</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32355</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>8</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>10.24</precio>
+		<stock>178</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32356</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>21.64</precio>
+		<stock>227</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32358</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>12</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>37.70</precio>
+		<stock>210</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32359</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>15</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>42.93</precio>
+		<stock>155</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32360</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.57</precio>
+		<stock>144</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32361</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>25.50</precio>
+		<stock>256</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32362</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>28.50</precio>
+		<stock>248</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32363</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>49.29</precio>
+		<stock>173</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32365</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>100mg/16.7mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2011-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>3.71</precio>
+		<stock>76</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32367</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.80</precio>
+		<stock>186</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32368</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>2</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>6.38</precio>
+		<stock>263</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32369</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>3</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>31.40</precio>
+		<stock>158</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32371</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>4</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>16.52</precio>
+		<stock>120</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32372</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.54</precio>
+		<stock>3</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32374</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>6</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>21.42</precio>
+		<stock>62</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32375</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>8</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.99</precio>
+		<stock>149</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32376</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.62</precio>
+		<stock>259</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32377</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>12</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>48.46</precio>
+		<stock>248</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32382</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>15</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>2.59</precio>
+		<stock>261</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32383</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>20</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>11.52</precio>
+		<stock>214</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32384</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>30</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.93</precio>
+		<stock>283</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32385</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>40</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>5.84</precio>
+		<stock>177</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32386</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>50</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.16</precio>
+		<stock>32</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32387</codigo>
+		<nombre>PAKLITAXFIL</nombre>
+		<contentracion>30mg/5mL</contentracion>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2016-05-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>8.53</precio>
+		<stock>232</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>32453</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>1%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 100 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-08-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.17</precio>
+		<stock>116</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32454</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>1%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 20 mL</presentacion>
+		<fracciones>5</fracciones>
+		<fechaRegistro>2013-08-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>15.87</precio>
+		<stock>180</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32455</codigo>
+		<nombre>PROPOFOL</nombre>
+		<contentracion>1%</contentracion>
+		<formato>Emulsión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. X 50 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-08-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>47.50</precio>
+		<stock>250</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>32826</codigo>
+		<nombre>LIDOCAINA PESADA</nombre>
+		<contentracion>5%</contentracion>
+		<formato>Solución para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2013-12-16</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>3.11</precio>
+		<stock>11</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33184</codigo>
+		<nombre>MIDAZOLAM</nombre>
+		<contentracion>5mg/5mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 5 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2015-11-21</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>23.36</precio>
+		<stock>69</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33373</codigo>
+		<nombre>CLORURO DE SODIO</nombre>
+		<contentracion>0.9%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 100 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2017-06-04</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>19.25</precio>
+		<stock>10</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33422</codigo>
+		<nombre>ATROPINA SULFATO</nombre>
+		<contentracion>1mg/mL</contentracion>
+		<formato>Suspensión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-04-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>10.90</precio>
+		<stock>131</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33495</codigo>
+		<nombre>NEPHROSTERIL</nombre>
+		<contentracion>0.07</contentracion>
+		<formato>Suspensión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 500 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-08-24</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>50.81</precio>
+		<stock>172</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33510</codigo>
+		<nombre>DOXORUBICINA CLORHIDRATO</nombre>
+		<contentracion>50mg/25mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2018-09-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.59</precio>
+		<stock>92</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>33556</codigo>
+		<nombre>KETOSTERIL</nombre>
+		<contentracion/>
+		<formato>Tableta</formato>
+		<formatoSimple>Tableta</formatoSimple>
+		<presentacion>Caja Tab.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-10-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>34.23</precio>
+		<stock>111</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33572</codigo>
+		<nombre>METAMIZOL SODICO</nombre>
+		<contentracion>1g/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2012-07-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>17.93</precio>
+		<stock>250</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33577</codigo>
+		<nombre>METRONIDAZOL</nombre>
+		<contentracion/>
+		<formato>Suspensión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. X 100 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2013-04-25</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>9.59</precio>
+		<stock>168</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33599</codigo>
+		<nombre>OXALIPLATINO</nombre>
+		<contentracion>100mg/50mL</contentracion>
+		<formato>Suspensión para Inyección</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2012-03-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>44.84</precio>
+		<stock>13</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>33816</codigo>
+		<nombre>MITOMICINA</nombre>
+		<contentracion>20mg</contentracion>
+		<formato>Polvo Liofilizado para Solución Inyectable</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. Amp.</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2016-07-12</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>32.59</precio>
+		<stock>233</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33868</codigo>
+		<nombre>SULFATO DE MAGNESIO</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp.</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2011-08-11</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>41.88</precio>
+		<stock>115</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33869</codigo>
+		<nombre>SMOFLIPID</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Emulsión</formato>
+		<formatoSimple>Suspension</formatoSimple>
+		<presentacion>Caja Fco. x 250 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-01-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>22.57</precio>
+		<stock>248</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33870</codigo>
+		<nombre>SMOFLIPID</nombre>
+		<contentracion>20%</contentracion>
+		<formato>Emulsión</formato>
+		<formatoSimple>Suspension</formatoSimple>
+		<presentacion>Caja Fco. x 1000 mL</presentacion>
+		<fracciones>10</fracciones>
+		<fechaRegistro>2012-01-28</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>7.71</precio>
+		<stock>295</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33908</codigo>
+		<nombre>PEDITRACE</nombre>
+		<contentracion/>
+		<formato>Concentrado para Inyección o Infusión</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Vial x 10 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2018-08-07</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>3.99</precio>
+		<stock>258</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33913</codigo>
+		<nombre>ESCOPOLAMINA N-BUTIL BROMURO</nombre>
+		<contentracion>20mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2017-06-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>33.21</precio>
+		<stock>97</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>33943</codigo>
+		<nombre>DEXTROSA</nombre>
+		<contentracion>5%</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Fco. x 1000 mL</presentacion>
+		<fracciones>1</fracciones>
+		<fechaRegistro>2017-01-14</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>45.40</precio>
+		<stock>125</stock>
+		<IVA>10</IVA>
+	</row>
+	<row>
+		<codigo>34015</codigo>
+		<nombre>KETOROLACO</nombre>
+		<contentracion>30mg/mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Caja Amp. x 1 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2017-02-01</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>24.65</precio>
+		<stock>68</stock>
+		<IVA>4</IVA>
+	</row>
+	<row>
+		<codigo>34071</codigo>
+		<nombre>FUROSEMIDA</nombre>
+		<contentracion>20mg/2mL</contentracion>
+		<formato>Solución Inyectable IV</formato>
+		<formatoSimple>Inyectable</formatoSimple>
+		<presentacion>Amp. x 2 mL</presentacion>
+		<fracciones>100</fracciones>
+		<fechaRegistro>2015-09-22</fechaRegistro>
+		<fabricante>348</fabricante>
+		<precio>20.99</precio>
+		<stock>294</stock>
+		<IVA>4</IVA>
+	</row>
+</resultset>
