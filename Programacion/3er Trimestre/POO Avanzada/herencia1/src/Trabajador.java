@@ -1,4 +1,4 @@
-public class Trabajador extends Persona{
+public class Trabajador extends Persona implements Comparable<Trabajador>{
 
     private double salario;
     private int horasTrabajadas;
@@ -40,6 +40,11 @@ public class Trabajador extends Persona{
     public String toString() {
 
         String aux = super.toString();
-        return aux + ", Sueldo por hora: " + sueldoHora();
+        return aux + ", Sueldo por hora: " + sueldoHora() + ", Salario: " + salario;
+    }
+
+    @Override
+    public int compareTo(Trabajador o) {
+        return Double.compare(this.salario, o.salario);
     }
 }

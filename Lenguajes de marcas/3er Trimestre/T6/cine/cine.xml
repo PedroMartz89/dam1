@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartelera>
+    <fecha>03/03/2024</fecha>
+    <localidad>Murcia</localidad>
+    <cines>
+        <cine nombre="Neocine Myrtea">
+            <direccion>Av. Severo Ochoa, s/n, 30100 Espinardo, Murcia</direccion>
+            <salas>
+                <sala codigo="NM1" vip="si" />
+                <sala codigo="NM2" vip="si" />
+                <sala codigo="NM3" vip="no" />
+                <sala codigo="NM4" vip="no" />
+                <sala codigo="NM5" vip="no" />
+                <sala codigo="NM6" vip="no" />
+                <sala codigo="NM7" vip="no" />
+                <sala codigo="NM8" vip="no" />
+                <sala codigo="NM9" vip="no" />
+            </salas>
+            <peliculas>
+                <pelicula>
+                    <titulo>Dune: Parte 2</titulo>
+                    <duracion>166 minutos</duracion>
+                    <pases>
+                        <pase sala="NM1" hora="16:00" />
+                        <pase sala="NM2" hora="16:30" />
+                        <pase sala="NM3" hora="18:00" />
+                        <pase sala="NM2" hora="19:30" />
+                        <pase sala="NM9" hora="20:20" />
+                        <pase sala="NM1" hora="22:00" />
+                        <pase sala="NM2" hora="22:30" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>Horror park</titulo>
+                    <duracion>93 minutos</duracion>
+                    <pases>
+                        <pase sala="NM4" hora="20:35" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>Wonka</titulo>
+                    <duracion>115 minutos</duracion>
+                    <pases>
+                        <pase sala="NM5" hora="18:10" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>La sociedad de la nieve</titulo>
+                    <duracion>168 minutos</duracion>
+                    <pases>
+                        <pase sala="NM6" hora="16:00" />
+                    </pases>
+                </pelicula>
+            </peliculas>
+        </cine>
+        <cine nombre="Cinesa Nueva Condomina">
+            <direccion>Centro Comercial Nueva Condomina, Autovía del Mediterráneo, Km. 760, 30110 Murcia</direccion>
+            <salas>
+                <sala codigo="CNC1" vip="si" />
+                <sala codigo="CNC2" />
+                <sala codigo="CNC3" />
+                <sala codigo="CNC4" />
+                <sala codigo="CNC5" />
+                <sala codigo="CNC6" />
+                <sala codigo="CNC7" />
+                <sala codigo="CNC8" />
+                <sala codigo="CNC9" />
+                <sala codigo="CNC10" />
+            </salas>
+            <peliculas>
+                <pelicula>
+                    <titulo>Dune: Parte 2</titulo>
+                    <duracion>166 minutos</duracion>
+                    <pases>
+                        <pase sala="CNC8" hora="16:00" />
+                        <pase sala="CNC1" hora="17:00" />
+                        <pase sala="CNC10" hora="17:30" />
+                        <pase sala="CNC7" hora="18:00" />
+                        <pase sala="CNC9" hora="18:30" />
+                        <pase sala="CNC2" hora="19:15" />
+                        <pase sala="CNC6" hora="19:15" />
+                        <pase sala="CNC8" hora="19:40" />
+                        <pase sala="CNC1" hora="20:40" />
+                        <pase sala="CNC10" hora="21:10" />
+                        <pase sala="CNC7" hora="21:40" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>Beekeeper: El protector</titulo>
+                    <duracion>105 minutos</duracion>
+                    <pases>
+                        <pase sala="CNC5" hora="22:05" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>Horror Park</titulo>
+                    <duracion>93 minutos</duracion>
+                    <pases>
+                        <pase sala="CNC2" hora="16:45" />
+                        <pase sala="CNC3" hora="20:00" />
+                        <pase sala="CNC3" hora="22:20" />
+                    </pases>
+                </pelicula>
+                <pelicula>
+                    <titulo>Wonka</titulo>
+                    <duracion>115 minutos</duracion>
+                    <pases>
+                        <pase sala="CNC4" hora="16:10" />
+                        <pase sala="CNC4" hora="18:50" />
+                    </pases>
+                </pelicula>
+            </peliculas>
+        </cine>
+    </cines>
+</cartelera>

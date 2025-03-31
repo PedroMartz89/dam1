@@ -16,7 +16,7 @@ public class Interface {
 	 * @return Devuelve el número entero introducido por teclado.
 	 */
 
-	public static int getInt() {
+	public int getInt() {
 		int number = -1;
 		String value = keyboard.nextLine();
 		try {
@@ -33,7 +33,7 @@ public class Interface {
 	 * @return Devuelve el número entero introducido por teclado.
 	 */
 
-	public static int getInt(String text) {
+	public int getInt(String text) {
 		System.out.print(text);
 		return getInt();
 	}
@@ -61,7 +61,7 @@ public class Interface {
 	/**
 	 * Metodo que crea una pausa con la opción de continuar pulsando enter.
 	 */
-	public static void toContinue() {
+	public void toContinue() {
 		System.out.print("\nPulse 'enter' para continuar");
 		try {
 			System.in.read();

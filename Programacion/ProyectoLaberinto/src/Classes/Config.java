@@ -10,7 +10,7 @@ public class Config {
     /**  
      *Versión del programa.
      */
-    private String VERSION = "0.1";
+    private String VERSION = "0.2.0";
     /**
      * Ruta del archivo de usuarios.
      */
@@ -30,10 +30,11 @@ public class Config {
     /**
      * Menú para usuarios no logueados.
      */
-    private String UNLOGGED_MENU = "Seleccione una opción: \n" +
-            "1 Iniciar sesión\n" +
-            "2 Registro\n" +
-            "0 Salir";
+    private String UNLOGGED_MENU = """
+            Seleccione una opción:\s
+            1 Iniciar sesión
+            2 Registro
+            0 Salir""";
     /**
      * Menú para usuarios logueados.
      */
@@ -46,6 +47,7 @@ public class Config {
             "6 Cerrar sesión\n" +
             "0 Salir";
 
+    private String MAZES_PATH = "./assets/mazes";
 
     public String getVERSION() {
         return VERSION;
@@ -101,5 +103,13 @@ public class Config {
 
     public void setLOGGED_MENU(String LOGGED_MENU) {
         this.LOGGED_MENU = LOGGED_MENU;
+    }
+
+    public String getMAZES_PATH() {
+        return MAZES_PATH;
+    }
+
+    public void setMAZES_PATH(String MAZES_PATH) {
+        this.MAZES_PATH = MAZES_PATH;
     }
 }

@@ -62,7 +62,8 @@ public class Session {
                     if (array1[0].equals(usr) && array1[1].equals(passwd)) {
 
                         this.user = new User(array1[0], array1[2], array1[3], array1[4], array1[5], array1[6], "user");
-                        logged = true;
+                        this.logged = true;
+                        login = true;
                         break;
                     }
                 }
@@ -73,8 +74,7 @@ public class Session {
             System.err.println("Error: Archivo no encontrado.");
         }
 
-        this.logged = login;
-        return logged;
+        return login;
     }
 
     /**

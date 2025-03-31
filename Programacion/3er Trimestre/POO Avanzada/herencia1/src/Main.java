@@ -26,6 +26,23 @@ public class Main {
             System.out.println(estudiante);
         }
 
+        ArrayList<Trabajador> array2 = new ArrayList<>();
+        array2.add(new Trabajador("Pedro", "Martinez", 1900, 8));
+        array2.add(new Trabajador("Jorge", "Hernandez", 1200, 5));
+        array2.add(new Trabajador("Claudia", "Murcia", 1800, 7));
+        array2.add(new Trabajador("Roberto", "Company", 1600, 8));
 
+        System.out.println("TRABAJADORES SIN ORDENAR");
+        for (Trabajador trabajador : array2) {
+
+            System.out.println(trabajador);
+        }
+
+        Collections.sort(array2);
+        System.out.println("TRABAJADORES ORDENADOS");
+        for (Trabajador trabajador : array2) {
+
+            System.out.println(trabajador);
+        }
     }
 }
