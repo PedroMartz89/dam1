@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Deportes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="deporte" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="numParticipantesMundiales" type="numParticipantesMundiales"/>
+            <xs:sequence>
+              <xs:element name="nombre" type="nombreDeporte"/>
+              <xs:element name="tipo" type="tipoDeporte"/>
+              <xs:element name="popularidadMundial" type="tipoDeporte"/>
+              <xs:element name="costoPromedioPractica" type="costoDeporte"/>
+              <xs:element name="equipamientoNecesario" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:choice maxOccurs="5">
+                    <xs:element name="balon" type="xs:string"/>
+                    <xs:element name="raqueta" type="xs:string"/>
+                    <xs:element name="casco" type="xs:string"/>
+                    <xs:element name="rodilleras" type="xs:string"/>
+                    <xs:element name="pala" type="xs:string"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="detalles">
+                <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="descripcion" type="descripcionDeporte"/>
+                  <xs:element name="Requisitos">
+                    <xs:simpleContent>
+                      <xs:attribute name="Resistencia" type="atributoFisico"/>
+                      <xs:attribute name="Fuerza" type="atributoFisico"/>
+                      <xs:attribute name="Flexibilidad" type="atributoFisico"/>
+                    </xs:simpleContent>
+                  </xs:element>
+                </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="paísRepresentativo">
+                <xs:complexType>
+                  <xs:attribute name="Continente" type="continente"/>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="nombrePais"/>
+                    <xs:element name="codigo" type="codPais"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="categoria" type="categoria"/>
+              <xs:element name="requisitosParticipación" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="edadMinima" type="xs:string"/>
+                    <xs:element name="licenciaRequerida" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="nombreDeporte">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3"/>
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoDeporte">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Equipo"/>
+      <xs:enumeration value="Individual"/>
+      <xs:enumeration value="Acuático"/>
+      <xs:enumeration value="Extremo"/>
+      <xs:enumeration value="Motor"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="popularidadDeporte">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]*\.[0-5]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="costoDeporte">
+    <xs:restriction base="xs:positiveinteger">
+      <xs:minInclusive value="10"/>
+      <xs:minInclusive value="50000"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:simpleType name="descripcionDeporte">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="20"/>
+      <xs:maxLength value="500"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="atributoFisicos">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Baja"/>
+      <xs:enumeration value="Media"/>
+      <xs:enumeration value="Alta"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:simpleType name="nombrePais">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3"/>
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="codPais">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^[a-zA-Z]{2}$"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="continente">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Europa"/>
+      <xs:enumeration value="America"/>
+      <xs:enumeration value="Australia"/>
+      <xs:enumeration value="Asia"/>
+      <xs:enumeration value="Antartida"/>
+    </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="continente">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Aficionado"/>
+      <xs:enumeration value="Semiprofesional"/>
+      <xs:enumeration value="Profesional"/>
+      <xs:enumeration value="Olímpico"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:simpleType name="numParticipantesMundiales">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:minInclusive value="1000"/>
+      <xs:maxInclusive value="1000000000"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

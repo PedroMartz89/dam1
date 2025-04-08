@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Tipo dia -->
+  <xs:simpleType name="tipoDia">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo mes -->
+  <xs:simpleType name="tipoMes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="enero"/>
+      <xs:enumeration value="febrero"/>
+      <xs:enumeration value="marzo"/>
+      <xs:enumeration value="abril"/>
+      <xs:enumeration value="mayo"/>
+      <xs:enumeration value="junio"/>
+      <xs:enumeration value="julio"/>
+      <xs:enumeration value="agosto"/>
+      <xs:enumeration value="septiembre"/>
+      <xs:enumeration value="octubre"/>
+      <xs:enumeration value="noviembre"/>
+      <xs:enumeration value="diciembre"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo año -->
+  <xs:simpleType name="tipoAnyo">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1900"/>
+      <xs:maxInclusive value="2011"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo Nombre -->
+  <xs:simpleType name="tipoNombre">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo Código Postal -->
+  <xs:simpleType name="tipoCodPostal">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:totalDigits value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo dirección -->
+  <xs:complexType name="tipoDireccion">
+    <xs:sequence>
+       <xs:element name="calle" type="xs:string"/>
+       <xs:element name="numero" type="xs:string"/>
+       <xs:element name="poblacion" type="tipoNombre"/>
+       <xs:element name="provincia" type="tipoNombre"/>
+       <xs:element name="codigoPostal" type="tipoCodPostal"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo nacimiento -->
+  <xs:complexType name="tipoNacimiento">
+    <xs:attribute name="dia" type="tipoDia"/>
+    <xs:attribute name="mes" type="tipoMes"/>
+    <xs:attribute name="anyo" type="tipoAnyo"/>
+
+  </xs:complexType>
+
+  <!-- Tipo persona -->
+  <xs:complexType name="tipoPersona">
+    <xs:sequence>
+      <xs:element name="nombre" minOccurs="1" maxOccurs="unbounded" type="tipoNombre"/>
+      <xs:element name="nacimiento" minOccurs="0" maxOccurs="unbounded" type="tipoNacimiento"/>
+      <xs:element name="direccion" minOccurs="1" maxOccurs="unbounded" type="tipoDireccion"/>
+      <xs:choice>
+        <xs:element name="varon" type="xs:string"/>
+        <xs:element name="femenino" type="xs:string"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Elemento personas -->
+  <xs:element name="personas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona" type="tipoPersona" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

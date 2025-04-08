@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inventos>
+  <invento id="A01">
+    <nombre>Helicoptero</nombre>
+    <descripcion>Maquina voladora con aspas rotatorias</descripcion>
+    <fecha>1930</fecha>
+    <categoria>Ingenieria</categoria>
+    <inventores>
+      <inventor nombre="Juan de la Cierva" nacionalidad="Española" rol="ingeniero"/>
+    </inventores>
+    <ubicacion>España</ubicacion>
+  </invento>
+</inventos>

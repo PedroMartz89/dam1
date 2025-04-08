@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Deportes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+    <deporte numParticipantesMundiales="300000">
+      <nombre>Rugby</nombre>
+      <tipo>Equipo</tipo>
+      <popularidadMundial>5.3</popularidadMundial>
+      <costoPromedioPractica>30</costoPromedioPractica>
+      <detalles>
+        <descripcion>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa</descripcion>
+        <requisitos Resistencia="Alta" Fuerza="Media" Flexibilidad="Baja"/>
+      </detalles>
+      <paísRepresentativo Continente="Asia">
+        <nombre>Nueva Zelanda</nombre>
+        <codigo>NZ</codigo>
+      </paísRepresentativo>
+      <categoria>Olímpico</categoria>
+    </deporte>
+</Deportes>
