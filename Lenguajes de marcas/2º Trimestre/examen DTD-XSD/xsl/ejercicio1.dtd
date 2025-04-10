@@ -1,0 +1,20 @@
+<!ELEMENT especies (especie+)>
+<!ELEMENT especie (nombre, categoria, descripcion, poblacion, distribucion, amenazas, especiesRelacionadas?)>
+<!ATTLIST especie id ID #REQUIRED>
+<!ELEMENT nombre (cientifico, comun+)>
+<!ELEMENT cientifico (#PCDATA)>
+<!ELEMENT comun (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descripcion (habitat, (alimentacion | dieta))>
+<!ELEMENT habitat (bosque | selva | sabana | tundra | marino) #REQUIRED>
+<!ELEMENT alimentacion (#PCDATA)>
+<!ELEMENT poblacion (estimada, tendencia?)>
+<!ELEMENT estimada (#PCDATA)>
+<!ELEMENT tendencia (#PCDATA)>
+<!ELEMENT distribucion (ubicacion+)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ATTLIST ubicacion siglas CDATA #IMPLIED>
+<!ELEMENT amenazas (amenaza+)>
+<!ELEMENT amenaza (#PCDATA)>
+<!ELEMENT especiesrelacionadas EMPTY>
+<!ATTLIST especiesrelacionadas refs IDREF #REQUIRED>

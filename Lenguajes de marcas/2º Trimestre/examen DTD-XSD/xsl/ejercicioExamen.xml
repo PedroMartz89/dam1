@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personas [
+
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, nacimiento?, direccion, (varon | femenino))>
+<!ATTLIST persona id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento EMPTY>
+<!ATTLIST nacimiento dia CDATA #REQUIRED>
+<!ATTLIST nacimiento mes CDATA #REQUIRED>
+<!ATTLIST nacimiento anyo CDATA #REQUIRED>
+<!ELEMENT direccion (calle, poblacion, provincia, codigoPostal)>
+<!ATTLIST direccion tipo CDATA #REQUIRED>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT codigoPostal (#PCDATA)>
+<!ELEMENT varon EMPTY>
+<!ELEMENT femenino EMPTY>
+
+
+
+]>
+
+<!-- personas.xml -->
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="persona.xsd">
+    <persona id="p1">
+        <nombre>Juan Pérez González</nombre>
+        
+        <nacimiento dia="15" mes="enero" anyo="2005"/>
+        <direccion tipo="principal">
+            <calle>Calle Mayor, 10</calle>
+            <poblacion>Madrid</poblacion>
+            <provincia>Madrid</provincia>
+            <codigoPostal>28013</codigoPostal>
+        </direccion>
+        <varon/>
+    </persona>
+    
+    <persona id="p2">
+        <nombre>María García</nombre>
+        <nacimiento dia="3" mes="marzo" anyo="2010"/>
+        <direccion tipo="principal">
+            <calle>Avenida de la Constitución, 5</calle>
+            <poblacion>Sevilla</poblacion>
+            <provincia>Sevilla</provincia>
+            <codigoPostal>41001</codigoPostal>
+        </direccion>
+        <femenino/>
+    </persona>
+</personas>
