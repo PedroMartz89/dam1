@@ -1,8 +1,13 @@
 public class Deposito extends Cuenta {
 
 
-    protected Deposito(Cliente cliente) {
-        super(cliente);
+    public Deposito(Cliente cliente, double tipoInteres, double saldo) {
+        super(cliente, tipoInteres, saldo);
+    }
+
+    @Override
+    public void depositar(double cantidad) {
+        setSaldo((getSaldo()+cantidad));
     }
 
     @Override

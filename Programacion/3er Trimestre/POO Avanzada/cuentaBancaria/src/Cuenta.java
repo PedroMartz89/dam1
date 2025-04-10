@@ -10,9 +10,7 @@ public abstract class Cuenta {
         this.saldo = saldo;
     }
 
-    public void depositar(double cantidad) {
-        setSaldo((getSaldo()+cantidad));
-    }
+    public abstract void depositar(double cantidad);
     public abstract double calcularInteres(int meses, double tipoInteres);
 
     public double getSaldo() {
