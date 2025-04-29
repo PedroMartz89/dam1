@@ -102,9 +102,8 @@ public class Main {
                 case 3:
                     modificarAlumno();
             }
-
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
-
-
-}
+    }
