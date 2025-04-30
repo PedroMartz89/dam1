@@ -1,5 +1,7 @@
 package Classes;
+
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Maze {
@@ -57,31 +59,73 @@ public class Maze {
     public void setEntranceExit(Interface iface) {
 
         if (this.map != null) {
-            this.startI = iface.getInt("Introduce la cordenada de entrada I: ");
-            this.startJ = iface.getInt("Introduce la cordenada de entrada J: ");
-            this.endI = iface.getInt("Introduce la cordenada de salida I: ");
-            this.endJ = iface.getInt("Introduce la cordenada de salida J: ");
+
+          while (true) {
+                System.out.print("Introduce la cordenada de entrada I: ");
+                int auxI = iface.getInt();
+                System.out.print("Introduce la cordenada de entrada J: ");
+                int auxJ = iface.getInt();
+
+                if (validCoordinate(auxI, auxJ)) {
+                    this.startI = auxI;
+                    this.startJ = auxJ;
+                    break;
+                } else {
+
+                    System.out.println("Las coordenadas proporcionadas no son válidas");
+                }
+          }
+          while (true) {
+              System.out.print("Introduce la cordenada de salida I: ");
+              int auxI = iface.getInt();
+              System.out.print("Introduce la cordenada de salida J: ");
+              int auxJ = iface.getInt();
+              if (validCoordinate(auxI, auxJ)) {
+                  this.endI = auxI;
+                  this.endJ = auxJ;
+                  break;
+              } else {
+                  System.out.println("Las coordenadas proporcionadas no son válidas");
+              }
+          }
+
 
         } else {
             System.out.println("Debes cargar un laberinto primero");
             iface.toContinue();
         }
-
-
 
     }
 
     public void showMaze(Interface iface) {
         if (this.map != null) {
-            for (char[] line : map) {
-                System.out.println(new String(line));
+
+            System.out.print("   ");
+            for (int j = 0; j < map[0].length; j++) {
+                System.out.printf("%2d ", j);
+            }
+            System.out.println();
+
+            for (int i = 0 ; i < map.length; i++) {
+                System.out.printf("%2d ", i); // número de fila al inicio
+
+                for (int j = 0; j < map[i].length; j++) {
+                    if (i == this.startI && j == this.startJ) {
+                        System.out.print("S  ");
+                    } else if (i == this.endI && j == this.endJ) {
+                        System.out.print("E  ");
+                    } else if (map[i][j] == '#') {
+                        System.out.print("#  ");
+                    } else if (map[i][j] == ' ') {
+                        System.out.print("   ");
+                    }
+                }
+                System.out.println();
             }
         } else {
-
             System.out.println("Debes cargar un laberinto primero");
             iface.toContinue();
         }
-
     }
 
     public String listDirectory(Config config, Interface iface) {
@@ -106,5 +150,11 @@ public class Maze {
             System.out.println("El directorio no existe o no es válido.");
         }
         return "No se ha podido realizar la operación";
+    }
+
+    private boolean validCoordinate(int i, int j) {
+        return i >= 0 && i < map.length &&
+                j >= 0 && j < map[i].length &&
+                map[i][j] == ' ';
     }
 }
