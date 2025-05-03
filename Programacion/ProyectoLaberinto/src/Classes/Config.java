@@ -10,7 +10,7 @@ public class Config {
     /**  
      *Versión del programa.
      */
-    private String VERSION = "0.2.0";
+    private String VERSION = "1.0.0";
     /**
      * Ruta del archivo de usuarios.
      */
@@ -45,6 +45,13 @@ public class Config {
             "4 Buscar caminos\n" +
             "5 Ver usuario actual\n" +
             "6 Cerrar sesión\n" +
+            "0 Salir";
+
+    private String MAZE_MENU = "" +
+            "Selecciona un camino\n" +
+            "---------------------\n" +
+            "1 El primer camino posible\n" +
+            "2 El camino más corto posible\n" +
             "0 Salir";
 
     private String MAZES_PATH = "./assets/mazes";
@@ -111,5 +118,9 @@ public class Config {
 
     public void setMAZES_PATH(String MAZES_PATH) {
         this.MAZES_PATH = MAZES_PATH;
+    }
+
+    public String getMAZE_MENU() {
+        return MAZE_MENU;
     }
 }

@@ -54,7 +54,17 @@ public class Main {
                     case 1 -> maze.loadMaze();
                     case 2 -> maze.showMaze(iface);
                     case 3 -> maze.setEntranceExit(iface);
-                    case 4 -> System.out.println("Proximamente");
+                    case 4 -> {
+                        if (maze.isLoaded()) {
+
+                            maze.mazeWays(config, iface);
+
+                        } else {
+
+                            System.out.println("Debes cargar un laberinto primero.");
+                            iface.toContinue();
+                        }
+                    }
                     case 5 -> {
                         session.showUser();
                         iface.toContinue();
