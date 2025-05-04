@@ -13,7 +13,7 @@ public class Maze {
     private int startJ;
     private int endI;
     private int endJ;
-    private ArrayList<Coordinate> coordinates;
+    private ArrayList<Coordinate> path;
 
 
     public void loadMaze() {
@@ -170,7 +170,7 @@ public class Maze {
 
         while (bool) {
             switch (option) {
-                case 1 -> showSolvedMaze(firstWay(iface), iface);
+                case 1 -> firstWay(iface);
                 case 2 -> fastestWay();
                 case 0 -> {
                     bool = false;
@@ -193,130 +193,115 @@ public class Maze {
 
     }
 
-    private ArrayList<int[]> firstWay(Interface iface) {
+    public ArrayList<Coordinate> getPath() {
+        return path;
+    }
 
-        ArrayList<int[]> way = new ArrayList<>();
-
-        int i = this.startI;
-        int j = this.startJ;
+    private void firstWay(Interface iface) {
+        if (this.map == null) {
+            System.out.println("Debes cargar un laberinto primero.");
+            iface.toContinue();
+            return;
+        }
+    
+        if (this.startI == 0 && this.startJ == 0 && this.endI == 0 && this.endJ == 0) {
+            System.out.println("Debes establecer las coordenadas de entrada y salida primero.");
+            iface.toContinue();
+            return;
+        }
+    
         boolean[][] visited = new boolean[map.length][map[0].length];
-        visited[i][j] = true; // Marcar inicio como visitado
-
-        way.add(new int[]{i, j, 0}); // Dirección 0 = inicial
-
-        int totalSteps = 0;
-
-        while (!(i == this.endI && j == this.endJ)) {
-
-            if (validWay(i, j + 1, visited)) { // Derecha
-                j++;
-                visited[i][j] = true;
-                way.add(new int[]{i, j, 2});
-                totalSteps++;
-            } else if (validWay(i + 1, j, visited)) { // Abajo
-                i++;
-                visited[i][j] = true;
-                way.add(new int[]{i, j, 3});
-                totalSteps++;
-            } else if (validWay(i, j - 1, visited)) { // Izquierda
-                j--;
-                visited[i][j] = true;
-                way.add(new int[]{i, j, 4});
-                totalSteps++;
-            } else if (validWay(i - 1, j, visited)) { // Arriba
-                i--;
-                visited[i][j] = true;
-                way.add(new int[]{i, j, 1});
-                totalSteps++;
-            } else {
-            if (way.size() <= 1) {
-                System.out.println("No hay camino posible.");
-                return new ArrayList<>();  // Retornar vacío si no se puede avanzar
+        path = new ArrayList<>();
+        ArrayList<Coordinate> stack = new ArrayList<>();
+    
+        // Agregar la posición inicial a la pila
+        stack.add(new Coordinate(startI, startJ, 0));
+        visited[startI][startJ] = true;
+    
+        // Direcciones: arriba, derecha, abajo, izquierda
+        int[] dirI = {-1, 0, 1, 0};
+        int[] dirJ = {0, 1, 0, -1};
+    
+        while (!stack.isEmpty()) {
+            Coordinate current = stack.remove(stack.size() - 1);
+            path.add(current);
+    
+            // Si llegamos a la salida, terminamos
+            if (current.coorI == endI && current.coorJ == endJ) {
+                System.out.println("Se encontró un camino desde la entrada hasta la salida.");
+                showSolvedMaze(iface);
+                return;
             }
-            way.remove(way.size() - 1); // Eliminar último paso
-            int[] last = way.get(way.size() - 1);
-            i = last[0];
-            j = last[1];
-            totalSteps--;
+    
+            // Explorar las celdas adyacentes
+            for (int d = 0; d < 4; d++) {
+                int newI = current.getCoorI() + dirI[d];
+                int newJ = current.getCoorJ() + dirJ[d];
+    
+                if (validWay(newI, newJ, visited)) {
+                    stack.add(new Coordinate(newI, newJ, 0));
+                    visited[newI][newJ] = true;
+                }
+            }
+    
+            // Si no hay más caminos desde la celda actual, retrocedemos
+            if (stack.isEmpty() || stack.get(stack.size() - 1).getCoorI() != current.getCoorI() || stack.get(stack.size() - 1).getCoorJ() != current.getCoorJ()) {
+                path.remove(path.size() - 1);
+            }
         }
-
-
-
+    
+        System.out.println("No se encontró un camino desde la entrada hasta la salida.");
     }
 
-        // Mostrar pasos realizados
-        System.out.println("---- Movimientos realizados ----");
-        for (int k = 1; k < way.size(); k++) {
-            int[] paso = way.get(k);
-            String direccion = switch (paso[2]) {
-                case 1 -> "Arriba";
-                case 2 -> "Derecha";
-                case 3 -> "Abajo";
-                case 4 -> "Izquierda";
-                default -> "Inicio";
-            };
-            System.out.println("Paso " + k + ": (" + paso[0] + ", " + paso[1] + ") - " + direccion);
+    private void showSolvedMaze(Interface iface) {
+        if (this.map == null || path == null || path.isEmpty()) {
+            System.out.println("No hay un laberinto resuelto para mostrar.");
+            iface.toContinue();
+            return;
         }
-        System.out.println("Total de pasos: " + totalSteps);
-
-
-        
-        // Mostrar el laberinto con el camino resuelto
-        return way;
-    }
-
-    public void showSolvedMaze(ArrayList<int[]> way, Interface iface) {
-        if (this.map != null) {
-            // Imprimir encabezado de columnas
-            System.out.print("   ");
-            for (int j = 0; j < map[0].length; j++) {
-                System.out.printf("%2d ", j);
+    
+        char[][] solvedMap = new char[map.length][map[0].length];
+    
+        // Copiar el laberinto original al mapa resuelto
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[i].length; j++) {
+                solvedMap[i][j] = map[i][j];
+            }
+        }
+    
+        // Dibujar el camino con flechas
+        for (int k = 0; k < path.size() - 1; k++) {
+            Coordinate current = path.get(k);
+            Coordinate next = path.get(k + 1);
+    
+            int deltaI = next.getCoorI() - current.getCoorI();
+            int deltaJ = next.getCoorJ() - current.getCoorJ();
+    
+            if (deltaI == -1 && deltaJ == 0) {
+                solvedMap[current.getCoorI()][current.getCoorJ()] = '^'; // Arriba
+            } else if (deltaI == 1 && deltaJ == 0) {
+                solvedMap[current.getCoorI()][current.getCoorJ()] = 'v'; // Abajo
+            } else if (deltaI == 0 && deltaJ == 1) {
+                solvedMap[current.getCoorI()][current.getCoorJ()] = '>'; // Derecha
+            } else if (deltaI == 0 && deltaJ == -1) {
+                solvedMap[current.getCoorI()][current.getCoorJ()] = '<'; // Izquierda
+            }
+        }
+    
+        // Marcar la entrada y la salida
+        solvedMap[startI][startJ] = 'E'; // Entrada
+        solvedMap[endI][endJ] = 'S';     // Salida
+    
+        // Mostrar el laberinto resuelto
+        System.out.println("Laberinto resuelto:");
+        for (int i = 0; i < solvedMap.length; i++) {
+            for (int j = 0; j < solvedMap[i].length; j++) {
+                System.out.print(solvedMap[i][j] + " ");
             }
             System.out.println();
-
-            for (int i = 0; i < map.length; i++) {
-                // Imprimir número de fila
-                System.out.printf("%2d ", i);
-                for (int j = 0; j < map[i].length; j++) {
-
-                    // Verificamos si esta posición está en el camino
-                    boolean isWay = false;
-                    char chara = ' ';
-                    for (int k = 1; k < way.size(); k++) {
-                        int[] prev = way.get(k - 1);
-                        int[] curr = way.get(k);
-
-                        if (prev[0] == i && prev[1] == j) {
-                            isWay = true;
-                            if (curr[0] == i - 1 && curr[1] == j) chara = '^';      // arriba
-                            else if (curr[0] == i + 1 && curr[1] == j) chara = 'v'; // abajo
-                            else if (curr[0] == i && curr[1] == j - 1) chara = '<'; // izquierda
-                            else if (curr[0] == i && curr[1] == j + 1) chara = '>'; // derecha
-                            break;
-                        }
-                    }
-
-                    // Imprimir la celda
-                    if (i == this.startI && j == this.startJ) {
-                        System.out.print("E  ");
-                    } else if (i == this.endI && j == this.endJ) {
-                        System.out.print("S  ");
-                    } else if (map[i][j] == '#') {
-                        System.out.print("#  ");
-                    } else if (isWay) {
-                        System.out.print(chara + "  ");
-                    } else {
-                        System.out.print("   ");
-                    }
-                }
-                System.out.println();
-            }
-
-        } else {
-            System.out.println("Debes cargar un laberinto primero");
-            iface.toContinue();
         }
-
+    
+        iface.toContinue();
     }
 
     public boolean isLoaded() {
