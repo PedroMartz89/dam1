@@ -2,6 +2,9 @@ package Classes;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 public class Maze {
 
@@ -171,7 +174,7 @@ public class Maze {
         while (bool) {
             switch (option) {
                 case 1 -> firstWay(iface);
-                case 2 -> fastestWay();
+                case 2 -> fastestWay(iface);
                 case 0 -> {
                     bool = false;
                     iface.toContinue();
@@ -189,119 +192,217 @@ public class Maze {
 
     }
 
-    private void fastestWay() {
+    private void fastestWay(Interface iface) {
 
+    //Nos aseguramos de que hay laberinto cargado
+        if (this.map == null) {
+        System.out.println("Debes cargar un laberinto primero.");
+        iface.toContinue();
+        return;
     }
+    //Y que las casillas de entrada y salida estén indicadas
+    if (this.startI == 0 && this.startJ == 0 && this.endI == 0 && this.endJ == 0) {
+        System.out.println("Debes establecer las coordenadas de entrada y salida primero.");
+        iface.toContinue();
+        return;
+    }
+
+    //Cramos un array de dos dimensiones para guardar las casillas visitadas
+    boolean[][] visited = new boolean[map.length][map[0].length];
+
+    //Matriz con la casilla anterior a la casilla visitada
+    Coordinate[][] parent = new Coordinate[map.length][map[0].length];
+
+
+    Queue<Coordinate> queue = new LinkedList<>();
+    visited[startI][startJ] = true;
+    queue.add(new Coordinate(startI, startJ, 0));
+
+    // Direcciones: arriba, derecha, abajo, izquierda
+    int[] dirI = {-1, 0, 1, 0};
+    int[] dirJ = {0, 1, 0, -1};
+    int[] dirCodes = {1, 2, 3, 4};
+
+    boolean found = false;
+
+    while (!queue.isEmpty()) {
+        Coordinate current = queue.poll();
+        
+        //Si estamos en la casilla de salida, completamos el laberinto
+        if (current.getCoorI() == endI && current.getCoorJ() == endJ) {
+            found = true;
+            break;
+        }
+        
+        
+        //Explora las celdas de alrededor para encontrar a donde moverse
+        for (int d = 0; d < 4; d++) {
+            int newI = current.getCoorI() + dirI[d];
+            int newJ = current.getCoorJ() + dirJ[d];
+
+            //Si encuentra una casilla válida, la almacena en la cola
+            if (validWay(newI, newJ, visited)) {
+                visited[newI][newJ] = true;
+                queue.add(new Coordinate(newI, newJ, dirCodes[d]));
+                parent[newI][newJ] = new Coordinate(current.getCoorI(), current.getCoorJ(), dirCodes[d]);
+            }
+        }
+    }
+
+    if (!found) {
+        System.out.println("No se encontró un camino desde la entrada hasta la salida.");
+        return;
+    }
+
+    // Reconstruir el camino más corto desde el final hacia el inicio
+    path = new ArrayList<>();
+    int i = endI, j = endJ;
+
+    //Recorremos el camino hacia atrás
+    while (!(i == startI && j == startJ)) {
+        Coordinate p = parent[i][j];
+        int dir = 0;
+        if (p != null) {
+            dir = getDirection(p.getCoorI(), p.getCoorJ(), i, j);
+        }
+        path.add(0, new Coordinate(i, j, dir));  // Agregar al principio
+        i = p.getCoorI();
+        j = p.getCoorJ();
+    }
+
+    path.add(0, new Coordinate(startI, startJ, 0));  // Agrega el punto inicial
+
+    System.out.println("Se encontró el camino más corto.");
+    
+    showSolvedMaze(iface);
+}
+
+    private int getDirection(int fromI, int fromJ, int toI, int toJ) {
+        if (toI == fromI - 1) return 1; // Arriba
+        if (toJ == fromJ + 1) return 2; // Derecha
+        if (toI == fromI + 1) return 3; // Abajo
+        if (toJ == fromJ - 1) return 4; // Izquierda
+        return 0;
+    }
+
 
     public ArrayList<Coordinate> getPath() {
         return path;
     }
 
     private void firstWay(Interface iface) {
+    
+        //Verificaciones
         if (this.map == null) {
             System.out.println("Debes cargar un laberinto primero.");
             iface.toContinue();
             return;
         }
-    
+
         if (this.startI == 0 && this.startJ == 0 && this.endI == 0 && this.endJ == 0) {
             System.out.println("Debes establecer las coordenadas de entrada y salida primero.");
             iface.toContinue();
             return;
         }
-    
+
         boolean[][] visited = new boolean[map.length][map[0].length];
         path = new ArrayList<>();
-        ArrayList<Coordinate> stack = new ArrayList<>();
-    
-        // Agregar la posición inicial a la pila
-        stack.add(new Coordinate(startI, startJ, 0));
-        visited[startI][startJ] = true;
-    
+        Stack<Coordinate> stack = new Stack<>();
+
         // Direcciones: arriba, derecha, abajo, izquierda
         int[] dirI = {-1, 0, 1, 0};
         int[] dirJ = {0, 1, 0, -1};
-    
+        int[] dirCodes = {1, 2, 3, 4};
+
+        stack.push(new Coordinate(startI, startJ, 0));
+        visited[startI][startJ] = true;
+
         while (!stack.isEmpty()) {
-            Coordinate current = stack.remove(stack.size() - 1);
-            path.add(current);
-    
-            // Si llegamos a la salida, terminamos
-            if (current.coorI == endI && current.coorJ == endJ) {
+            Coordinate current = stack.peek();
+
+            // Si ya llegamos a la meta
+            if (current.getCoorI() == endI && current.getCoorJ() == endJ) {
+                path = new ArrayList<>(stack);  // Guardamos la ruta encontrada
                 System.out.println("Se encontró un camino desde la entrada hasta la salida.");
                 showSolvedMaze(iface);
                 return;
             }
-    
-            // Explorar las celdas adyacentes
+
+            boolean moved = false;
+
             for (int d = 0; d < 4; d++) {
                 int newI = current.getCoorI() + dirI[d];
                 int newJ = current.getCoorJ() + dirJ[d];
-    
+
                 if (validWay(newI, newJ, visited)) {
-                    stack.add(new Coordinate(newI, newJ, 0));
                     visited[newI][newJ] = true;
+                    stack.push(new Coordinate(newI, newJ, dirCodes[d]));
+                    moved = true;
+                    break;
                 }
             }
-    
-            // Si no hay más caminos desde la celda actual, retrocedemos
-            if (stack.isEmpty() || stack.get(stack.size() - 1).getCoorI() != current.getCoorI() || stack.get(stack.size() - 1).getCoorJ() != current.getCoorJ()) {
-                path.remove(path.size() - 1);
+
+            // Si no se pudo mover, retrocedemos (backtrack)
+            if (!moved) {
+                stack.pop();
             }
         }
-    
+
         System.out.println("No se encontró un camino desde la entrada hasta la salida.");
     }
 
-    private void showSolvedMaze(Interface iface) {
-        if (this.map == null || path == null || path.isEmpty()) {
-            System.out.println("No hay un laberinto resuelto para mostrar.");
-            iface.toContinue();
-            return;
-        }
-    
-        char[][] solvedMap = new char[map.length][map[0].length];
-    
-        // Copiar el laberinto original al mapa resuelto
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map[i].length; j++) {
-                solvedMap[i][j] = map[i][j];
-            }
-        }
-    
-        // Dibujar el camino con flechas
-        for (int k = 0; k < path.size() - 1; k++) {
-            Coordinate current = path.get(k);
-            Coordinate next = path.get(k + 1);
-    
-            int deltaI = next.getCoorI() - current.getCoorI();
-            int deltaJ = next.getCoorJ() - current.getCoorJ();
-    
-            if (deltaI == -1 && deltaJ == 0) {
-                solvedMap[current.getCoorI()][current.getCoorJ()] = '^'; // Arriba
-            } else if (deltaI == 1 && deltaJ == 0) {
-                solvedMap[current.getCoorI()][current.getCoorJ()] = 'v'; // Abajo
-            } else if (deltaI == 0 && deltaJ == 1) {
-                solvedMap[current.getCoorI()][current.getCoorJ()] = '>'; // Derecha
-            } else if (deltaI == 0 && deltaJ == -1) {
-                solvedMap[current.getCoorI()][current.getCoorJ()] = '<'; // Izquierda
-            }
-        }
-    
-        // Marcar la entrada y la salida
-        solvedMap[startI][startJ] = 'E'; // Entrada
-        solvedMap[endI][endJ] = 'S';     // Salida
-    
-        // Mostrar el laberinto resuelto
-        System.out.println("Laberinto resuelto:");
-        for (int i = 0; i < solvedMap.length; i++) {
-            for (int j = 0; j < solvedMap[i].length; j++) {
-                System.out.print(solvedMap[i][j] + " ");
+
+    public void showSolvedMaze(Interface iface) {
+        if (this.map != null && path != null && !path.isEmpty()) {
+            System.out.print("   ");
+            for (int j = 0; j < map[0].length; j++) {
+                System.out.printf("%2d ", j);
             }
             System.out.println();
-        }
     
-        iface.toContinue();
+            for (int i = 0; i < map.length; i++) {
+                System.out.printf("%2d ", i);
+                for (int j = 0; j < map[i].length; j++) {
+    
+                    boolean isInWay = false;
+                    char simbol = ' ';
+    
+                    for (Coordinate paso : path) {
+                        if (paso.getCoorI() == i && paso.getCoorJ() == j) {
+                            isInWay = true;
+                            simbol = switch (paso.getDir()) {
+                                case 1 -> '^';
+                                case 2 -> '>';
+                                case 3 -> 'v';
+                                case 4 -> '<';
+                                default -> '.';
+                            };
+                            break;
+                        }
+                    }
+    
+                    if (i == this.startI && j == this.startJ) {
+                        System.out.print("E  ");
+                    } else if (i == this.endI && j == this.endJ) {
+                        System.out.print("S  ");
+                    } else if (map[i][j] == '#') {
+                        System.out.print("#  ");
+                    } else if (isInWay) {
+                        System.out.print(simbol + "  ");
+                    } else {
+                        System.out.print("   ");
+                    }
+                }
+                System.out.println();
+                
+            }
+    
+        } else {
+            System.out.println("Debes cargar y resolver un laberinto primero.");
+            iface.toContinue();
+        }
+
+        showPath();
     }
 
     public boolean isLoaded() {
@@ -312,5 +413,22 @@ public class Maze {
 
         return i>= 0 && j >= 0 && i < map.length && j < map[0].length &&
                 (map[i][j] == ' ' || (i == endI && j == endJ)) && !visited[i][j];
+    }
+
+    public void showPath(){
+        System.out.println("\nCantidad de pasos: " + (path.size() - 1));
+
+    System.out.println("Coordenadas del camino con dirección:");
+    for (Coordinate step : path) {
+        String dirTexto = switch (step.getDir()) {
+            case 1 -> "^ Arriba";
+            case 2 -> "> Derecha";
+            case 3 -> "v Abajo";
+            case 4 -> "< Izquierda";
+            default -> "Inicio";
+        };
+        System.out.printf("(%d, %d) - %s\n", step.getCoorI(), step.getCoorJ(), dirTexto);
+    }
+
     }
 }
