@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) {
         ProductoDAO dao = new ProductoDAOImpl();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un precio mínimo: ");
-        double precioMin = sc.nextDouble();
+        System.out.println("Introduce un nombre de producto: ");
+        String nombre = sc.nextLine();
 
-        List<Producto> productos = dao.getProductos(precioMin);
+        List<Producto> productos = dao.getProductosNombre(nombre);
 
         System.out.println("---- Productos ----");
         for (Producto producto : productos) {

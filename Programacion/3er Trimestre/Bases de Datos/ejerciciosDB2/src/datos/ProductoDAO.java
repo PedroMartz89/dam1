@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface ProductoDAO {
 
-    List<Producto> getProductos();
+    List<Producto> getProductos(double precioMin);
 
 }
