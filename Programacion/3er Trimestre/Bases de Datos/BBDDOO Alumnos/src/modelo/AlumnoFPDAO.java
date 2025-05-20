@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public interface AlumnoFPDAO {
 
-    void insertar(AlumnoFP a);
+    void insertar(Alumno a);
     ArrayList<AlumnoFP> recuperarAlumnos();
 
 }

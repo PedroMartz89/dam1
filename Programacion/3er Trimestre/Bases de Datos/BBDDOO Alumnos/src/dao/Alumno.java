@@ -2,13 +2,13 @@ package dao;
 
 public class Alumno {
 
-    private String id;
-    private String nombre;
-    private String apellido;
-    private String dni;
-    private String email;
-    private String dir;
-    private String telf;
+    protected String id;
+    protected String nombre;
+    protected String apellido;
+    protected String dni;
+    protected String email;
+    protected String dir;
+    protected String telf;
 
     public Alumno(String id, String nombre, String apellido, String dni, String email, String dir, String telf) {
         this.id = id;

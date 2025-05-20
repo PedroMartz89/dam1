@@ -13,6 +13,13 @@ public class AlumnoPrimaria extends Alumno {
     public String toString() {
         return "AlumnoPrimaria{" +
                 "curso='" + curso + '\'' +
+                ", id='" + id + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", dni='" + dni + '\'' +
+                ", email='" + email + '\'' +
+                ", dir='" + dir + '\'' +
+                ", telf='" + telf + '\'' +
                 '}';
     }
 

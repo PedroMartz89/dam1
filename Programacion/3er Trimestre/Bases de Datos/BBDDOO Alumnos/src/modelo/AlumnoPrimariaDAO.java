@@ -7,6 +7,6 @@ import java.util.ArrayList;
 
 public interface AlumnoPrimariaDAO {
 
-    void insertar(AlumnoPrimaria a);
+    void insertar(Alumno a);
     ArrayList<AlumnoPrimaria> recuperarAlumnos();
 }

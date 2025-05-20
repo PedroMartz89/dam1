@@ -12,4 +12,18 @@ public class AlumnoFP extends Alumno{
     public String getFamilia() {
         return familia;
     }
+
+    @Override
+    public String toString() {
+        return "AlumnoFP{" +
+                "familia='" + familia + '\'' +
+                ", id='" + id + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", dni='" + dni + '\'' +
+                ", email='" + email + '\'' +
+                ", dir='" + dir + '\'' +
+                ", telf='" + telf + '\'' +
+                '}';
+    }
 }

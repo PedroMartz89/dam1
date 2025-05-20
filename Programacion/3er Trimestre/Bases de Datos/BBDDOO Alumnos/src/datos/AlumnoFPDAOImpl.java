@@ -12,8 +12,8 @@ import java.util.ArrayList;
 public class AlumnoFPDAOImpl implements AlumnoFPDAO {
 
     @Override
-    public void insertar(AlumnoFP a) {
-        String sql = "INSERT INTO alumno VALUES (?, ?, ?, ?, ?, ?, ?, 'Informatica')";
+    public void insertar(Alumno a) {
+        String sql = "INSERT INTO alumnofp VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         try {
 
             Connection conn = ConexionBD.getInstance();
@@ -26,7 +26,7 @@ public class AlumnoFPDAOImpl implements AlumnoFPDAO {
             pstmt.setString(5, a.getEmail());
             pstmt.setString(6, a.getDir());
             pstmt.setString(7, a.getTelf());
-            pstmt.setString(8, a.getFamilia());
+            pstmt.setString(8, "informatica");
             pstmt.executeUpdate();
 
         } catch (SQLException e) {
@@ -38,7 +38,7 @@ public class AlumnoFPDAOImpl implements AlumnoFPDAO {
     public ArrayList<AlumnoFP> recuperarAlumnos() {
         ArrayList<AlumnoFP> alumnos = new ArrayList<>();
 
-        String sql = "Select * FROM alumno;";
+        String sql = "select * FROM alumnoFP;";
 
         try {
             Connection conn = ConexionBD.getInstance();

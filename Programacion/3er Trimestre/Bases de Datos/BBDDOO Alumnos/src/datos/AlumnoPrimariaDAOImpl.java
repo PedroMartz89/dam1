@@ -11,8 +11,8 @@ import java.util.ArrayList;
 public class AlumnoPrimariaDAOImpl implements AlumnoPrimariaDAO {
 
     @Override
-    public void insertar(AlumnoPrimaria a) {
-        String sql = "INSERT INTO alumno VALUES (?, ?, ?, ?, ?, ?, ?, '1ºA')";
+    public void insertar(Alumno a) {
+        String sql = "INSERT INTO alumnoprimaria VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
             try {
 
             Connection conn = ConexionBD.getInstance();
@@ -25,7 +25,7 @@ public class AlumnoPrimariaDAOImpl implements AlumnoPrimariaDAO {
             pstmt.setString(5, a.getEmail());
             pstmt.setString(6, a.getDir());
             pstmt.setString(7, a.getTelf());
-            pstmt.setString(8, a.getCurso());
+            pstmt.setString(8, "1ºA");
             pstmt.executeUpdate();
 
         } catch (SQLException e) {
@@ -37,7 +37,7 @@ public class AlumnoPrimariaDAOImpl implements AlumnoPrimariaDAO {
     public ArrayList<AlumnoPrimaria> recuperarAlumnos() {
         ArrayList<AlumnoPrimaria> alumnos = new ArrayList<>();
 
-        String sql = "Select * FROM alumno;";
+        String sql = "Select * FROM alumnoPrimaria;";
 
         try {
             Connection conn = ConexionBD.getInstance();

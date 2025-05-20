@@ -28,6 +28,9 @@ public class ConexionBD {
     public static void createDatabase() throws SQLException {
         Connection conn = DriverManager.getConnection(url, user, passwd);
         Statement statement = conn.createStatement();
+        //Borrar base de datos
+        statement.executeUpdate("drop database escuela;");
+
         // SQL para crear la base de datos
         String createDatabaseSQL = "CREATE DATABASE IF NOT EXISTS " + dataBase;
 
